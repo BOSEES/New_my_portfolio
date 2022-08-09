@@ -1,10 +1,18 @@
 import './App.css';
+import { SelfIntro } from "./view/selfIntro";
+import { About } from "./view/about";
+import { Resume } from "./view/resume";
+import { Portfolio } from "./view/portfolio";
+import { Blog } from "./view/blog";
 
-function App() {
+const App = () => {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!asdasd
-    </h1>
+    <section>
+      <SelfIntro/>
+      <h1 className="text-3xl font-bold underline">
+        
+      </h1>
+    </section>
   );
 }
 
