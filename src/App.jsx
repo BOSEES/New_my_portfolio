@@ -10,8 +10,11 @@ const App = () => {
 	const [toggle, setToggle] = useState(true);
 
 	return (
-		<section>
+		<section className="flex">
 			<SelfIntro />
+      <div className="bg-red-400 w-full">
+        
+      </div>
 			<div className="flex flex-col justify-center align-center w-screen h-screen">
 				{toggle ? (
 					<div className="flex flex-col justify-center align-center w-full h-full bg-neutral-900 text-make-light-green">
