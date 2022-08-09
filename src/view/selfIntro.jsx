@@ -1,6 +1,6 @@
 export const SelfIntro = () => {
     return (
-        <h1 className="text-3xl font-bold underline text-emerald-500 bg-neutral-500">
+        <h1 className="text-3xl font-bold underline text-make-light-green">
             self intro
         </h1>
     );
