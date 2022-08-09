@@ -4,8 +4,8 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				"regal-blue": "#243c5a",
-				point: "#70EC4C",
+				"make-light-green": "#70EC4C",
+				"make-dark-green": "#58AC48",
 			},
 		},
 	},
