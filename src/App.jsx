@@ -8,15 +8,19 @@ import { Blog } from "./view/blog";
 
 const App = () => {
 	const [toggle, setToggle] = useState(true);
+	const [page, setPage] = useState(1);
 
 	return (
 		<section className="flex">
 			<SelfIntro />
-      <div className="bg-red-400 w-full p-6">
-        <div className="w-full h-full shadow-pixel">
-			asdasd
-		</div>
-      </div>
+			<div className="bg-red-400 w-full p-6">
+				<div className="w-full h-full shadow-pixel">
+					{page === 1 && <About/>}
+					{page === 2 && <Resume/>}
+					{page === 3 && <Portfolio/>}
+					{page === 4 && <Blog/>}
+				</div>
+			</div>
 			{/* <div className="flex flex-col justify-center align-center w-screen h-screen">
 				{toggle ? (
 					<div className="flex flex-col justify-center align-center w-full h-full bg-neutral-900 text-make-light-green">
