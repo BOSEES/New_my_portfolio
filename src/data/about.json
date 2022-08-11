@@ -1,0 +1,134 @@
+{
+    "introduce": {
+        "title": "INTRODUCE",
+        "description": "안녕하세요. \n 저는 현재 FrontEnd 직군에서 프로젝트를 진행하고 있습니다. \n Javascript 언어를 가장 좋아합니다. \n FrontEnd 및 BackEnd 직군으로 프로젝트를 진행한 경력이 있습니다. \n\n 현재는 Salesforce 솔루션을 이용한 CRM 개발 프로젝트를 진행중입니다. \n 기술 트렌드와 실제 프로덕션의 중간에서 효율점을 찾아가며\n 하루하루 발전해 나가고 있습니다. 잘 부탁드립니다."
+    },
+    "skills": [
+        {
+            "title":"Frontend Stack" ,
+            "stack": [
+                {
+                    "title": "Javascript",
+                    "img": "/img/JavaScript.png"
+                },
+                {
+                    "title": "ES 6",
+                    "img": "/img/JavaScript.png"
+                },
+                {
+                    "title": "Typescript",
+                    "img": "/img/JavaScript.png"
+                },
+                {
+                    "title": "React",
+                    "img": "/img/JavaScript.png"
+                },
+                {
+                    "title": "Redux",
+                    "img": "/img/JavaScript.png"
+                },
+                {
+                    "title": "Web3.js",
+                    "img": "/img/JavaScript.png"
+                },
+                {
+                    "title": "Ethers.js",
+                    "img": "/img/JavaScript.png"
+                },
+                {
+                    "title": "Recoil",
+                    "img": "/img/JavaScript.png"
+                },
+                {
+                    "title": "Styled-Component",
+                    "img": "/img/JavaScript.png"
+                },
+                {
+                    "title": "Tail-Wind",
+                    "img": "/img/JavaScript.png"
+                },
+                {
+                    "title": "Module-CSS",
+                    "img": "/img/JavaScript.png"
+                }
+            ]
+        },
+        {
+            "title": "Backend Stack",
+            "stack": [
+                {
+                    "title": "Express.js",
+                    "img": "/img/JavaScript.png"
+                },
+                {
+                    "title": "GraphQL",
+                    "img": "/img/JavaScript.png"
+                },
+                {
+                    "title": "TheGraph",
+                    "img": "/img/JavaScript.png"
+                },
+                {
+                    "title": "Remix",
+                    "img": "/img/JavaScript.png"
+                },
+                {
+                    "title": "Solidity",
+                    "img": "/img/JavaScript.png"
+                },
+                {
+                    "title": "Linux",
+                    "img": "/img/JavaScript.png"
+                },
+                {
+                    "title": "MongoDB",
+                    "img": "/img/JavaScript.png"
+                },
+                {
+                    "title": "PostgreSQL",
+                    "img": "/img/JavaScript.png"
+                }
+            ]
+        },
+        {
+            "title": "Infra Stack",
+            "stack": [
+                {
+                    "title": "AWS",
+                    "img": "/img/JavaScript.png"
+                },
+                {
+                    "title": "Docker",
+                    "img": "/img/JavaScript.png"
+                }
+            ]
+        },
+        {
+            "title": "CI/CD",
+            "stack": [
+                {
+                    "title": "Github-Action",
+                    "img": "/img/JavaScript.png"
+                }
+            ]
+        },
+        {
+            "title": "Remote Repository",
+            "stack": [
+                {
+                    "title": "Github",
+                    "img": "/img/JavaScript.png"
+                }
+            ]
+        },
+        {
+            "title": "ETC",
+            "stack": [
+                {
+                    "title": "JIRA",
+                    "img": "/img/JavaScript.png"
+                }
+            ]
+        }
+    ]
+}
