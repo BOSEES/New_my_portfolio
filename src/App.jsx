@@ -13,7 +13,7 @@ const App = () => {
 		<section className="flex">
 			<SelfIntro />
       <div className="bg-red-400 w-full p-6">
-        <div className="w-full m-6 shadow-pixel">
+        <div className="w-full h-full shadow-pixel">
 			asdasd
 		</div>
       </div>
