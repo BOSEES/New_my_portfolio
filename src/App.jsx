@@ -14,6 +14,7 @@ const App = () => {
 		<section className="flex">
 			<SelfIntro />
 			<div className="bg-red-400 w-full p-6">
+<<<<<<< HEAD
 				<div className="w-full h-full shadow-pixel">
 					{page === 1 && <About/>}
 					{page === 2 && <Resume/>}
@@ -21,6 +22,9 @@ const App = () => {
 					{page === 4 && <Blog/>}
 					
 				</div>
+=======
+				<div className="w-full h-full shadow-pixel">asdasd</div>
+>>>>>>> 4f3781e6dbff16fdac853d5a7061bd664e334b38
 			</div>
 			{/* <div className="flex flex-col justify-center align-center w-screen h-screen">
 				{toggle ? (
