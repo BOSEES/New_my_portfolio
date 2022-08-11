@@ -19,6 +19,7 @@ const App = () => {
 					{page === 2 && <Resume/>}
 					{page === 3 && <Portfolio/>}
 					{page === 4 && <Blog/>}
+					
 				</div>
 			</div>
 			{/* <div className="flex flex-col justify-center align-center w-screen h-screen">
