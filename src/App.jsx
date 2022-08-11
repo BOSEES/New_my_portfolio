@@ -9,6 +9,7 @@ import profile from "./img/profile.png";
 
 const App = () => {
 	const [toggle, setToggle] = useState(false);
+	const [page, setPage] = useState(1);
 
 	return (
 		<section className="flex">
@@ -16,6 +17,12 @@ const App = () => {
 				<>
 					<SelfIntro />
 					<div className="bg-red-400 w-full p-6">
+						<div className="w-full h-full shadow-pixel">
+							{page === 1 && <About />}
+							{page === 2 && <Resume />}
+							{page === 3 && <Portfolio />}
+							{page === 4 && <Blog />}
+						</div>
 						<div className="w-full h-full shadow-pixel">asdasd</div>
 					</div>
 				</>

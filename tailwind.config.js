@@ -12,10 +12,10 @@ module.exports = {
 			},
 			boxShadow: {
 				pixel: [
-					"-10px 0 0 0 #70ec4c",
-					"10px 0 0 0 #70ec4c",
-					"0 10px 0 0 #70ec4c",
-					"0 -10px 0 0 #70ec4c",
+					"-10px 0 0 0 #70EC4C",
+					"10px 0 0 0 #70EC4C",
+					"0 10px 0 0 #70EC4C",
+					"0 -10px 0 0 #70EC4C",
 				],
 			},
 		},
