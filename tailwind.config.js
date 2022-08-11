@@ -7,6 +7,9 @@ module.exports = {
 				"make-light-green": "#70EC4C",
 				"make-dark-green": "#58AC48",
 			},
+			fontSize: {
+				large: "13rem",
+			},
 		},
 	},
 	plugins: [],
