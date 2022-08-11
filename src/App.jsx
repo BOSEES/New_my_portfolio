@@ -12,7 +12,10 @@ const App = () => {
 	return (
 		<section className="flex">
 			<SelfIntro />
-			<div className="flex flex-col justify-center align-center w-screen h-screen">
+			<div className="bg-red-400 w-full p-6">
+				<div className="w-full m-6 shadow-pixel">asdasd</div>
+			</div>
+			{/* <div className="flex flex-col justify-center align-center w-screen h-screen">
 				{toggle ? (
 					<div className="flex flex-col justify-center align-center w-full h-full bg-neutral-900 text-make-light-green">
 						<h1 className="flex shadow-make-light-green-600">Hello World</h1>
@@ -23,7 +26,7 @@ const App = () => {
 				) : (
 					<div></div>
 				)}
-			</div>
+			</div> */}
 		</section>
 	);
 };

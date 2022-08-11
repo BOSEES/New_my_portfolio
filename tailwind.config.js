@@ -10,6 +10,14 @@ module.exports = {
 			fontSize: {
 				large: "13rem",
 			},
+			boxShadow: {
+				pixel: [
+					"-15px 0 0 0 black",
+					"15px 0 0 0 black",
+					"0 15px 0 0 black",
+					"0 -15px 0 0 black",
+				],
+			},
 		},
 	},
 	plugins: [],
