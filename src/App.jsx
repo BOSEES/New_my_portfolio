@@ -7,8 +7,8 @@ import { Portfolio } from "./view/portfolio";
 import { Blog } from "./view/blog";
 
 const App = () => {
-	const [toggle, setToggle] = useState(false);
-	const [page, setPage] = useState(1);
+	const [toggle, setToggle] = useState(true);
+	const [page, setPage] = useState(2);
 
 	return (
 		<section className="flex">
@@ -16,12 +16,13 @@ const App = () => {
 				<>
 					<SelfIntro />
 					<div className="bg-red-400 w-full p-6">
-						<div className="w-full h-full shadow-pixel">
+						<div className="scrollHidden w-full h-full shadow-pixel overflow-y-auto flex flex-col p-5 text-white">
 							{page === 1 && <About />}
 							{page === 2 && <Resume />}
 							{page === 3 && <Portfolio />}
 							{page === 4 && <Blog />}
 						</div>
+						{/* <div className="w-full h-full shadow-pixel">asdasd</div> */}
 					</div>
 				</>
 			) : (
