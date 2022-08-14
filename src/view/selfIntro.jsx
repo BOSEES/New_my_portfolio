@@ -35,9 +35,9 @@ export const SelfIntro = () => {
 					<br />
 					<h2>봐주셔서 감사합니다 :D</h2>
 					<h2>김영일 올림.</h2>
+					{/* <br />
 					<br />
-					<br />
-					<br />
+					<br /> */}
 					<h2>© 2020 Created by BOSEES</h2>
 				</div>
 				<div>
