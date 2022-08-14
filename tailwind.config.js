@@ -11,13 +11,22 @@ module.exports = {
 				large: "13rem",
 			},
 			boxShadow: {
-				pixel: [
+				pixelLarge: [
 					"-10px 0 0 0 #70EC4C",
 					"10px 0 0 0 #70EC4C",
 					"0 10px 0 0 #70EC4C",
 					"0 -10px 0 0 #70EC4C",
 				],
+				pixelMedium: [
+					"-7px 0 0 0 #70EC4C",
+					"7px 0 0 0 #70EC4C",
+					"0 7px 0 0 #70EC4C",
+					"0 -7px 0 0 #70EC4C",
+				],
 			},
+			fontFamily: {
+				"pixel" : ["Pixel"]
+			}
 		},
 	},
 	plugins: [],

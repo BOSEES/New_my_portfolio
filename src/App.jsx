@@ -7,16 +7,16 @@ import { Portfolio } from "./view/portfolio";
 import { Blog } from "./view/blog";
 
 const App = () => {
-	const [toggle, setToggle] = useState(true);
-	const [page, setPage] = useState(1);
+	const [toggle, setToggle] = useState(false);
+	const [page, setPage] = useState(4);
 
 	return (
 		<section className="flex">
 			{toggle ? (
 				<>
-					<SelfIntro />
-					<div className="bg-red-400 w-full p-6">
-						<div className="scrollHidden w-full h-[92vh] shadow-pixel overflow-y-auto flex flex-col p-5 text-white">
+					<SelfIntro setPage={setPage} />
+					<div className="w-full p-6">
+						<div className="scrollHidden w-full h-[92vh] shadow-pixelLarge overflow-y-auto flex flex-col p-5 text-white">
 							{page === 1 && <About />}
 							{page === 2 && <Resume />}
 							{page === 3 && <Portfolio />}
@@ -26,7 +26,7 @@ const App = () => {
 				</>
 			) : (
 				<div className="flex flex-col justify-center align-center w-full h-screen bg-neutral-900 text-make-light-green relative">
-					<h1 className="flex justify-center shadow-make-light-green-600 text-large mb-10 z-10">
+					<h1 className=" flex justify-center shadow-make-light-green-600 text-large mb-10 z-10">
 						Hello World
 					</h1>
 					<img

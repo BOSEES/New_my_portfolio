@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "Pixel";
+    src: url("/public/fonts/GnuUnifontFull-Pm9P.ttf");
+}
+
+body {
+    font-family: "Pixel";
+    background-color: black;
+}
