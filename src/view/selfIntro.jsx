@@ -1,6 +1,18 @@
 import { Avatar } from "../components/avatar";
+import { useRef } from "react";
 
 export const SelfIntro = ({ setPage }) => {
+	const pageRef = useRef();
+
+	const handleMouseMove = () => {
+
+	}
+
+	const handleMouseOut = () => {
+		
+	}
+
+	console.log(pageRef.current);
 	return (
 		<div className="flex flex-col justify-center p-10 h-screen w-7/12">
 			<div className="flex items-center flex-wrap	">
@@ -39,11 +51,19 @@ export const SelfIntro = ({ setPage }) => {
 					<h2 className="text-white">© 2022 Created by BOSEES</h2>
 				</div>
 				<div>
-					{[1,2,3,4].map((e, index) => {
+					{["About", "Resume","Portfolio","Blog"].map((title, index) => {
 						return (
-							<img key={index} className="mt-8 hover:cursor-pointer bg-white" src="img/bill.png" onClick={() => {
-								setPage(e)
-							}}/>
+							<div>
+								<img ref={pageRef} key={index + 1} className="mt-8 hover:cursor-pointer bg-white"
+									src="img/bill.png" 
+									onClick={() => setPage(index + 1)}
+									onMouseMove={() => {console.log(pageRef.current.className)}}
+									onMouseOut={() => console.log("kgkgkggkgkgkggk")}
+								/>
+								<div className="shadow-pixelMedium">
+									
+								</div>
+							</div>
 						)
 					})}
 				</div>
