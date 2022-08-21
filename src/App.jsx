@@ -8,7 +8,7 @@ import { Blog } from "./view/blog";
 
 const App = () => {
 	const [toggle, setToggle] = useState(false);
-	const [page, setPage] = useState(4);
+	const [page, setPage] = useState(1);
 
 	return (
 		<section className="flex">
@@ -16,7 +16,7 @@ const App = () => {
 				<>
 					<SelfIntro setPage={setPage} />
 					<div className="w-full p-6">
-						<div className="scrollHidden w-full h-[92vh] shadow-pixelLarge overflow-y-auto flex flex-col p-5 text-white">
+						<div className="scrollHidden w-full h-[92vh] shadow-pixelMedium overflow-y-auto flex flex-col p-5 text-white">
 							{page === 1 && <About />}
 							{page === 2 && <Resume />}
 							{page === 3 && <Portfolio />}
@@ -25,8 +25,8 @@ const App = () => {
 					</div>
 				</>
 			) : (
-				<div className="flex flex-col justify-center align-center w-full h-screen bg-neutral-900 text-make-light-green relative">
-					<h1 className=" flex justify-center shadow-make-light-green-600 text-large mb-10 z-10">
+				<div className="flex flex-col justify-center align-center w-full h-screen bg-neutral-900 text-white relative">
+					<h1 className=" flex justify-center shadow-white-600 text-large mb-10 z-10">
 						Hello World
 					</h1>
 					<img

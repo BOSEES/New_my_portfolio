@@ -12,16 +12,16 @@ module.exports = {
 			},
 			boxShadow: {
 				pixelLarge: [
-					"-10px 0 0 0 #70EC4C",
-					"10px 0 0 0 #70EC4C",
-					"0 10px 0 0 #70EC4C",
-					"0 -10px 0 0 #70EC4C",
+					"-10px 0 0 0 #ffffff",
+					"10px 0 0 0 #ffffff",
+					"0 10px 0 0 #ffffff",
+					"0 -10px 0 0 #ffffff",
 				],
 				pixelMedium: [
-					"-7px 0 0 0 #70EC4C",
-					"7px 0 0 0 #70EC4C",
-					"0 7px 0 0 #70EC4C",
-					"0 -7px 0 0 #70EC4C",
+					"-7px 0 0 0 #ffffff",
+					"7px 0 0 0 #ffffff",
+					"0 7px 0 0 #ffffff",
+					"0 -7px 0 0 #ffffff",
 				],
 			},
 			fontFamily: {

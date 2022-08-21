@@ -5,10 +5,10 @@ export const About = () => {
     return (
         <div className="p-2">
             <div className="border-t-4 relative mt-10">
-                <h1 className="text-1xl absolute left-10 -top-4 bg-black pl-4 pr-4 text-make-light-green">
+                <h1 className="text-1xl absolute left-10 -top-4 bg-black pl-4 pr-4 text-white">
                     {aboutData.introduce.title}
                 </h1>
-                <p className="text-2xl p-5 text-make-light-green" >
+                <p className="text-2xl p-5 text-white whitespace-pre-line" >
                     {aboutData.introduce.description}
                 </p>
             </div>
@@ -17,7 +17,7 @@ export const About = () => {
 
                 return (
                     <div key={index} className="border-t-4 relative mt-10">
-                        <h1 className="text-1xl absolute left-10 -top-4 bg-black pl-4 pr-4 text-make-light-green">
+                        <h1 className="text-1xl absolute left-10 -top-4 bg-black pl-4 pr-4 text-white">
                             {title}
                         </h1>
                             <div className="flex pt-10 pl-5 pr-5 flex-wrap">

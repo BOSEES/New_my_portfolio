@@ -9,47 +9,35 @@
             "stack": [
                 {
                     "title": "Javascript",
-                    "img": "/img/JavaScript.png"
+                    "img": "/img/javascript_pixel.png"
                 },
                 {
                     "title": "ES 6",
-                    "img": "/img/JavaScript.png"
+                    "img": "/img/es6_pixel.png"
                 },
                 {
                     "title": "Typescript",
-                    "img": "/img/JavaScript.png"
+                    "img": "/img/typescript_pixel.png"
                 },
                 {
                     "title": "React",
-                    "img": "/img/JavaScript.png"
+                    "img": "/img/react_pixel.png"
                 },
                 {
                     "title": "Redux",
-                    "img": "/img/JavaScript.png"
-                },
-                {
-                    "title": "Web3.js",
-                    "img": "/img/JavaScript.png"
-                },
-                {
-                    "title": "Ethers.js",
-                    "img": "/img/JavaScript.png"
+                    "img": "/img/redux_pixel.png"
                 },
                 {
                     "title": "Recoil",
-                    "img": "/img/JavaScript.png"
+                    "img": "/img/recoil_pixel.png"
                 },
                 {
-                    "title": "Styled-Component",
-                    "img": "/img/JavaScript.png"
+                    "title": "StyledComponent",
+                    "img": "/img/styled_component_pixel.png"
                 },
                 {
                     "title": "Tail-Wind",
-                    "img": "/img/JavaScript.png"
-                },
-                {
-                    "title": "Module-CSS",
-                    "img": "/img/JavaScript.png"
+                    "img": "/img/tailwind_pixel.png"
                 }
             ]
         },
@@ -58,35 +46,27 @@
             "stack": [
                 {
                     "title": "Express.js",
-                    "img": "/img/JavaScript.png"
+                    "img": "/img/express_pixel.png"
                 },
                 {
                     "title": "GraphQL",
-                    "img": "/img/JavaScript.png"
-                },
-                {
-                    "title": "TheGraph",
-                    "img": "/img/JavaScript.png"
-                },
-                {
-                    "title": "Remix",
-                    "img": "/img/JavaScript.png"
+                    "img": "/img/graphql_pixel.png"
                 },
                 {
                     "title": "Solidity",
-                    "img": "/img/JavaScript.png"
+                    "img": "/img/solidity_pixel.png"
                 },
                 {
                     "title": "Linux",
-                    "img": "/img/JavaScript.png"
+                    "img": "/img/linux_pixel.png"
                 },
                 {
                     "title": "MongoDB",
-                    "img": "/img/JavaScript.png"
+                    "img": "/img/mongodb_pixel.png"
                 },
                 {
                     "title": "PostgreSQL",
-                    "img": "/img/JavaScript.png"
+                    "img": "/img/postgre_pixel.png"
                 }
             ]
         },
@@ -95,11 +75,19 @@
             "stack": [
                 {
                     "title": "AWS",
-                    "img": "/img/JavaScript.png"
+                    "img": "/img/aws_pixel.png"
                 },
                 {
                     "title": "Docker",
-                    "img": "/img/JavaScript.png"
+                    "img": "/img/docker_pixel.png"
+                },
+                {
+                    "title": "TheGraph",
+                    "img": "/img/thegraph_pixel.png"
+                },
+                {
+                    "title": "ChainLink",
+                    "img": "/img/chainlink.png"
                 }
             ]
         },
@@ -108,7 +96,7 @@
             "stack": [
                 {
                     "title": "Github-Action",
-                    "img": "/img/JavaScript.png"
+                    "img": "/img/githubaction_pixel.png"
                 }
             ]
         },
@@ -117,7 +105,7 @@
             "stack": [
                 {
                     "title": "Github",
-                    "img": "/img/JavaScript.png"
+                    "img": "/img/github_pixel.png"
                 }
             ]
         },
@@ -126,7 +114,19 @@
             "stack": [
                 {
                     "title": "JIRA",
-                    "img": "/img/JavaScript.png"
+                    "img": "/img/jira_pixel.png"
+                },
+                {
+                    "title": "Web3.js",
+                    "img": "/img/web3_pixel.png"
+                },
+                {
+                    "title": "Ethers.js",
+                    "img": "/img/ethers_pixel.png"
+                },
+                {
+                    "title": "Remix",
+                    "img": "/img/remix_pixel.png"
                 }
             ]
         }

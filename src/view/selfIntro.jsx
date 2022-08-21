@@ -2,46 +2,46 @@ import { Avatar } from "../components/avatar";
 
 export const SelfIntro = ({ setPage }) => {
 	return (
-		<div className="flex flex-col justify-center p-14 h-screen w-7/12">
+		<div className="flex flex-col justify-center p-10 h-screen w-7/12">
 			<div className="flex items-center flex-wrap	">
 				<Avatar />
 				<div className="min-w-200">
-					<h1 className="text-5xl font-bold text-make-light-green mb-4">
+					<h1 className="text-5xl font-bold text-white mb-4">
 						안녕하세요.
 					</h1>
 					<h2 className="text-2xl font-bold text-make-light-green">
-						블록체인 프론트엔드 개발자
+						블록체인 프론트엔드
 					</h2>
-					<h2 className="text-2xl font-bold text-make-light-green">
-						김영일입니다.
+					<h2 className="text-2xl font-bold text-white">
+						개발자 김영일입니다.
 					</h2>
 				</div>
 			</div>
 			<div className="flex justify-between">
 				<div className="mt-10">
-					<h2 className="text-make-light-green">현재 사이트는</h2>
-					<h2 className="text-make-light-green">React / tail-wind </h2>
-					<h2 className="text-make-light-green">등을 사용하여 제작되었습니다.</h2>
+					<h2 className="text-white">현재 사이트는</h2>
+					<h2 className="text-white">React / tail-wind </h2>
+					<h2 className="text-white">등을 사용하여 제작되었습니다.</h2>
 					<br />
-					<h2 className="text-make-light-green">저에게 관심이 있으시거나,</h2>
-					<h2 className="text-make-light-green">관심사에 대해 궁금한 점이 있다면,</h2>
+					<h2 className="text-white">저에게 관심이 있으시거나,</h2>
+					<h2 className="text-white">관심사에 대해 궁금한 점이 있다면,</h2>
 					<br />
 					<div className="flex">
-						<img className="mr-1 bg-make-light-green" src="img/mail.png" />
-						<h2 className="text-make-dark-green">rladuddlf3@naver.com</h2>
+						<img className="mr-1 bg-white" src="img/mail.png" />
+						<h2 className="text-make-light-green">rladuddlf3@naver.com</h2>
 					</div>
-					<h2 className="text-make-light-green">위의 이메일로 언제든지 연락을 주세요.</h2>
-					<h2 className="text-make-light-green">당신과 함께 성장하고 싶습니다.</h2>
+					<h2 className="text-white">위의 이메일로 언제든지 연락을 주세요.</h2>
+					<h2 className="text-white">당신과 함께 성장하고 싶습니다.</h2>
 					<br />
-					<h2 className="text-make-light-green">봐주셔서 감사합니다 :D</h2>
-					<h2 className="text-make-light-green">김영일 올림.</h2>
+					<h2 className="text-white">봐주셔서 감사합니다 :D</h2>
+					<h2 className="text-white">김영일 올림.</h2>
 					<br />
-					<h2 className="text-make-light-green">© 2022 Created by BOSEES</h2>
+					<h2 className="text-white">© 2022 Created by BOSEES</h2>
 				</div>
 				<div>
 					{[1,2,3,4].map((e, index) => {
 						return (
-							<img key={index} className="mb-8 hover:cursor-pointer bg-make-light-green" src="img/bill.png" onClick={() => {
+							<img key={index} className="mt-8 hover:cursor-pointer bg-white" src="img/bill.png" onClick={() => {
 								setPage(e)
 							}}/>
 						)
