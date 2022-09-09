@@ -1,9 +1,26 @@
 import { Avatar } from "../components/avatar";
 import { CategoryModal } from "../components/categoryModal";
 
+const images = [
+	{
+		title: "About",
+		image: "img/picture.png"
+	},
+	{
+		title: "Resume",
+		image: "img/cv.png"
+	},
+	{
+		title: "Portfolio",
+		image: "img/folder.png"
+	},
+	{
+		title: "Blog",
+		image: "img/coffee.png"
+	},
+]
 
-export const SelfIntro = ({ setPage }) => {
-	
+export const SelfIntro = ({ setPage, page }) => {
 	return (
 		<div className="flex flex-col justify-center p-10 h-screen w-7/12">
 			<div className="flex items-center flex-wrap	">
@@ -30,7 +47,7 @@ export const SelfIntro = ({ setPage }) => {
 					<h2 className="text-white">관심사에 대해 궁금한 점이 있다면,</h2>
 					<br />
 					<div className="flex">
-						<img className="mr-1 bg-white" src="img/mail.png" />
+						<img className="mr-2 w-6 h-6" src="img/mail1.png" />
 						<h2 className="text-make-light-green">rladuddlf320@gmail.com</h2>
 					</div>
 					<h2 className="text-white">위의 이메일로 언제든지 연락을 주세요.</h2>
@@ -42,9 +59,10 @@ export const SelfIntro = ({ setPage }) => {
 					<h2 className="text-white">© 2022 Created by BOSEES</h2>
 				</div>
 				<div>
-					{["About", "Resume","Portfolio","Blog"].map((title, index) => {
+					{images.map((category, index) => {
+						const { title, image } = category;
 						return (
-							<CategoryModal key={index} title={title} index={index} setPage={setPage}/>
+							<CategoryModal key={index} title={title} image={image} index={index} setPage={setPage} page={page}/>
 						)
 					})}
 				</div>

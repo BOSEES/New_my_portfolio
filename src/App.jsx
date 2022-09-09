@@ -14,7 +14,7 @@ const App = () => {
 		<section className="flex">
 			{toggle ? (
 				<>
-					<SelfIntro setPage={setPage} />
+					<SelfIntro setPage={setPage} page={page} />
 					<div className="w-full p-6">
 						<div className="scrollHidden w-full h-[92vh] shadow-pixelMedium overflow-y-auto flex flex-col p-5 text-white">
 							{page === 1 && <About />}
