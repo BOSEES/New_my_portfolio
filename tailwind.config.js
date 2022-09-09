@@ -6,9 +6,13 @@ module.exports = {
 			colors: {
 				"make-light-green": "#70EC4C",
 				"make-dark-green": "#58AC48",
+				"make-light-red": "#f01507",
+				"make-dark-red": "#4a0905"
 			},
 			fontSize: {
 				large: "13rem",
+				medium: "7rem",
+				small: "3rem"
 			},
 			boxShadow: {
 				pixelLarge: [
