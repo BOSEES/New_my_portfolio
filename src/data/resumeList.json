@@ -1,100 +1,78 @@
 [
     {
         "period": ["2022.04", "현재"],
-        "thumbnail": "img/NodeJs.png",
-        "title": "I2MAX",
-        "position": "세일즈포스 개발자(CommonDev Front & Back)",
-        "job": "개발센터 파트4 책임 개발자",
+        "thumbnail": "img/peri_logo.png",
+        "title": "PERI Finance",
+        "position": "PERI Finance & NEND 개발자",
+        "job": "선임 개발자(CommonDev Front & Back)",
         "status": ["프로젝트 진행중", true],
         "projects": [
             {
-                "period": ["2022.04", "현재"],
-                "title": "삼성전자 Foundry 부문 비즈니스 시스템 구축 Phase 2",
-                "language": ["Salesforce LWC", "APEX"],
+                "title": "PERI Finance DeFi & DEX & NEND",
+                "language": ["JavaScript(TypeScript)", "Solidity"],
                 "description": [
-                    "Foundry 사업부 부분 비즈니스 레거시 시스템 세일즈포스 이관 및 시스템 개발",
-                    "개발언어 : Salesforce LWC(shadow dom 기반 Frontend 개발언어) / APEX(JAVA 기반 자체 Backend 개발언어)",
-                    "Lightning Web component(es6 web component)를 통한 Frontend 개발"
+                    "PERI DeFi Platform Crosschain Bridge (Light Client & Relay) 시스템 개발/운영",
+                    "PERI Finance Smart Contract 개발/운영",
+                    "DEX 가격 차트 및 통계 Dashboard 데이터 서버 개발",
+                    "NEND Project ERC-721 계열 Smart Contract 및 Minting Site FullStack 개발/운영"
                 ]
             }
         ]
     },
     {
-        "period": ["2022.04", "현재"],
-        "thumbnail": "img/NodeJs.png",
-        "title": "I2MAX",
-        "position": "세일즈포스 개발자(CommonDev Front & Back)",
-        "job": "개발센터 파트4 책임 개발자",
-        "status": ["프로젝트 진행중", true],
+        "period": ["2022.01", "2022.04"],
+        "thumbnail": "img/data_labs_logo.png",
+        "title": "Data Labs",
+        "position": "React Native Front-End 개발자",
+        "job": "신입 개발자",
+        "status": ["프로젝트 종료", false],
         "projects": [
             {
-                "period": ["2022.04", "현재"],
-                "title": "삼성전자 Foundry 부문 비즈니스 시스템 구축 Phase 2",
-                "language": ["Salesforce LWC", "APEX"],
+                "title": "블록체인 기반 마이데이터 거래 플랫폼 마이인포마켓",
+                "language": ["JavaScript(TypeScript)"],
                 "description": [
-                    "Foundry 사업부 부분 비즈니스 레거시 시스템 세일즈포스 이관 및 시스템 개발",
-                    "개발언어 : Salesforce LWC(shadow dom 기반 Frontend 개발언어) / APEX(JAVA 기반 자체 Backend 개발언어)",
-                    "Lightning Web component(es6 web component)를 통한 Frontend 개발"
+                    "React Native 프레임워크 기반 Front-End 개발",
+                    "데이터랩스 공식 홈페이지 개발 및 SEO 최적화",
+                    "DID VC/VP 구현체 구축",
+                    "Pigma 활용 디자이너와 UI/UX 협업"
                 ]
             }
         ]
     },
     {
-        "period": ["2022.04", "현재"],
-        "thumbnail": "img/NodeJs.png",
-        "title": "I2MAX",
-        "position": "세일즈포스 개발자(CommonDev Front & Back)",
-        "job": "개발센터 파트4 책임 개발자",
-        "status": ["프로젝트 진행중", true],
+        "period": ["2021.05", "2021.08"],
+        "thumbnail": "img/software_property.png",
+        "title": "공유 서비스 플랫폼 개발자 양성 과정(한국 소프트웨어 저작권 협회)",
+        "position": "",
+        "job": "교육생",
+        "status": ["교육 이수", true],
         "projects": [
             {
-                "period": ["2022.04", "현재"],
-                "title": "삼성전자 Foundry 부문 비즈니스 시스템 구축 Phase 2",
-                "language": ["Salesforce LWC", "APEX"],
+                "title": "동네 도서 대여 플랫폼 헬로북",
+                "language": ["JavaScript", "Java"],
                 "description": [
-                    "Foundry 사업부 부분 비즈니스 레거시 시스템 세일즈포스 이관 및 시스템 개발",
-                    "개발언어 : Salesforce LWC(shadow dom 기반 Frontend 개발언어) / APEX(JAVA 기반 자체 Backend 개발언어)",
-                    "Lightning Web component(es6 web component)를 통한 Frontend 개발"
+                    "React 프레임워크 기반 Front-End 개발",
+                    "Docker & AWS 인프라 구축",
+                    "NGINX Proxy port forwarding"
                 ]
             }
         ]
     },
     {
-        "period": ["2022.04", "현재"],
-        "thumbnail": "img/NodeJs.png",
-        "title": "I2MAX",
-        "position": "세일즈포스 개발자(CommonDev Front & Back)",
-        "job": "개발센터 파트4 책임 개발자",
-        "status": ["프로젝트 진행중", true],
+        "period": ["2020.05", "2020.11"],
+        "thumbnail": "img/blockchain_study.jpeg",
+        "title": "블록체인 개발자 양성 과정(한국 블록체인 연구교육원)",
+        "position": "",
+        "job": "교육생",
+        "status": ["교육 이수", true],
         "projects": [
             {
-                "period": ["2022.04", "현재"],
-                "title": "삼성전자 Foundry 부문 비즈니스 시스템 구축 Phase 2",
-                "language": ["Salesforce LWC", "APEX"],
+                "title": "SNS 좋아요 마케팅 블록체인 플랫폼 하트링크",
+                "language": ["JavaScript", "Solidity"],
                 "description": [
-                    "Foundry 사업부 부분 비즈니스 레거시 시스템 세일즈포스 이관 및 시스템 개발",
-                    "개발언어 : Salesforce LWC(shadow dom 기반 Frontend 개발언어) / APEX(JAVA 기반 자체 Backend 개발언어)",
-                    "Lightning Web component(es6 web component)를 통한 Frontend 개발"
-                ]
-            }
-        ]
-    },
-    {
-        "period": ["2022.04", "현재"],
-        "thumbnail": "img/NodeJs.png",
-        "title": "I2MAX",
-        "position": "세일즈포스 개발자(CommonDev Front & Back)",
-        "job": "개발센터 파트4 책임 개발자",
-        "status": ["프로젝트 진행중", true],
-        "projects": [
-            {
-                "period": ["2022.04", "현재"],
-                "title": "삼성전자 Foundry 부문 비즈니스 시스템 구축 Phase 2",
-                "language": ["Salesforce LWC", "APEX"],
-                "description": [
-                    "Foundry 사업부 부분 비즈니스 레거시 시스템 세일즈포스 이관 및 시스템 개발",
-                    "개발언어 : Salesforce LWC(shadow dom 기반 Frontend 개발언어) / APEX(JAVA 기반 자체 Backend 개발언어)",
-                    "Lightning Web component(es6 web component)를 통한 Frontend 개발"
+                    "경기도 20202 블록체인 해커톤 우수상",
+                    "탈중앙 좋아요 마켓 Smart Contract 개발",
+                    "React 프레임워크 기반 Front-End 개발"
                 ]
             }
         ]

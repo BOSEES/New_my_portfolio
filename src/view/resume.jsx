@@ -18,14 +18,14 @@ export const Resume = () => {
 					</div>
 					<div className="flex align-center mb-5">
 						<img
-							className="min-w-15 w-15 min-h-15 h-15 mr-5 rounded-full"
+							className="min-w-15 w-20 min-h-15 h-20 mr-5 rounded-full bg-white"
 							src={data.thumbnail}
 							alt="_"
 						/>
 						<div>
 							<h2 className="text-xl font-bold">{data.title}</h2>
-							<span className="mr-5">직책: {data.job}</span>
-							<span>포지션: {data.position}</span>
+							<div className="mr-5">직책: {data.job}</div>
+							<div>포지션: {data.position}</div>
 						</div>
 					</div>
 

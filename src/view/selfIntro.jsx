@@ -29,11 +29,16 @@ export const SelfIntro = ({ setPage, page }) => {
 					<h1 className="text-5xl font-bold text-white mb-4">
 						안녕하세요.
 					</h1>
-					<h2 className="text-2xl font-bold text-make-light-green">
-						블록체인 프론트엔드
-					</h2>
+					<div className="flex">
+						<h2 className="text-2xl font-bold text-make-light-green mr-2">
+							블록체인
+						</h2>
+						<h2 className="text-2xl font-bold text-white">
+							개발자
+						</h2>
+					</div> 
 					<h2 className="text-2xl font-bold text-white">
-						개발자 김영일입니다.
+						김영일입니다.
 					</h2>
 				</div>
 			</div>
