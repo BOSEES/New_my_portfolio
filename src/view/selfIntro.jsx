@@ -1,18 +1,9 @@
 import { Avatar } from "../components/avatar";
-import { useRef } from "react";
+import { CategoryModal } from "../components/categoryModal";
+
 
 export const SelfIntro = ({ setPage }) => {
-	const pageRef = useRef();
-
-	const handleMouseMove = () => {
-
-	}
-
-	const handleMouseOut = () => {
-		
-	}
-
-	console.log(pageRef.current);
+	
 	return (
 		<div className="flex flex-col justify-center p-10 h-screen w-7/12">
 			<div className="flex items-center flex-wrap	">
@@ -40,7 +31,7 @@ export const SelfIntro = ({ setPage }) => {
 					<br />
 					<div className="flex">
 						<img className="mr-1 bg-white" src="img/mail.png" />
-						<h2 className="text-make-light-green">rladuddlf3@naver.com</h2>
+						<h2 className="text-make-light-green">rladuddlf320@gmail.com</h2>
 					</div>
 					<h2 className="text-white">위의 이메일로 언제든지 연락을 주세요.</h2>
 					<h2 className="text-white">당신과 함께 성장하고 싶습니다.</h2>
@@ -53,17 +44,7 @@ export const SelfIntro = ({ setPage }) => {
 				<div>
 					{["About", "Resume","Portfolio","Blog"].map((title, index) => {
 						return (
-							<div>
-								<img ref={pageRef} key={index + 1} className="mt-8 hover:cursor-pointer bg-white"
-									src="img/bill.png" 
-									onClick={() => setPage(index + 1)}
-									onMouseMove={() => {console.log(pageRef.current.className)}}
-									onMouseOut={() => console.log("kgkgkggkgkgkggk")}
-								/>
-								<div className="shadow-pixelMedium">
-									
-								</div>
-							</div>
+							<CategoryModal key={index} title={title} index={index} setPage={setPage}/>
 						)
 					})}
 				</div>

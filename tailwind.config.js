@@ -23,6 +23,12 @@ module.exports = {
 					"0 7px 0 0 #ffffff",
 					"0 -7px 0 0 #ffffff",
 				],
+				pixelSmall: [
+					"-2px 0 0 0 #ffffff",
+					"2px 0 0 0 #ffffff",
+					"0 2px 0 0 #ffffff",
+					"0 -2px 0 0 #ffffff",
+				],
 			},
 			fontFamily: {
 				"pixel" : ["Pixel"]

@@ -45,28 +45,48 @@
             "title": "Backend Stack",
             "stack": [
                 {
+                    "title": "Solidity",
+                    "img": "/img/solidity_pixel.png"
+                },
+                {
+                    "title": "Web3.js",
+                    "img": "/img/web3_pixel.png"
+                },
+                {
+                    "title": "Ethers.js",
+                    "img": "/img/ethers_pixel.png"
+                },
+                {
+                    "title": "Hard Hat",
+                    "img": "/img/hardhat_pixel.png"
+                },
+                {
                     "title": "Express.js",
                     "img": "/img/express_pixel.png"
+                },
+                {
+                    "title": "Apollo",
+                    "img": "/img/apollo_pixel.png"
+                },
+                {
+                    "title": "PostgreSQL",
+                    "img": "/img/postgre_pixel.png"
                 },
                 {
                     "title": "GraphQL",
                     "img": "/img/graphql_pixel.png"
                 },
                 {
-                    "title": "Solidity",
-                    "img": "/img/solidity_pixel.png"
-                },
-                {
-                    "title": "Linux",
-                    "img": "/img/linux_pixel.png"
+                    "title": "Prisma",
+                    "img": "/img/prisma_pixel.png"
                 },
                 {
                     "title": "MongoDB",
                     "img": "/img/mongodb_pixel.png"
                 },
                 {
-                    "title": "PostgreSQL",
-                    "img": "/img/postgre_pixel.png"
+                    "title": "Linux",
+                    "img": "/img/linux_pixel.png"
                 }
             ]
         },
@@ -74,20 +94,20 @@
             "title": "Infra Stack",
             "stack": [
                 {
-                    "title": "AWS",
-                    "img": "/img/aws_pixel.png"
-                },
-                {
-                    "title": "Docker",
-                    "img": "/img/docker_pixel.png"
-                },
-                {
                     "title": "TheGraph",
                     "img": "/img/thegraph_pixel.png"
                 },
                 {
                     "title": "ChainLink",
                     "img": "/img/chainlink.png"
+                },
+                {
+                    "title": "AWS",
+                    "img": "/img/aws_pixel.png"
+                },
+                {
+                    "title": "Docker",
+                    "img": "/img/docker_pixel.png"
                 }
             ]
         },
@@ -113,20 +133,12 @@
             "title": "ETC",
             "stack": [
                 {
-                    "title": "JIRA",
-                    "img": "/img/jira_pixel.png"
-                },
-                {
-                    "title": "Web3.js",
-                    "img": "/img/web3_pixel.png"
-                },
-                {
-                    "title": "Ethers.js",
-                    "img": "/img/ethers_pixel.png"
-                },
-                {
                     "title": "Remix",
                     "img": "/img/remix_pixel.png"
+                },
+                {
+                    "title": "JIRA",
+                    "img": "/img/jira_pixel.png"
                 }
             ]
         }
