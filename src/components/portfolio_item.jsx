@@ -1,9 +1,9 @@
 import { PixelAnimation } from "../components/pixelAnimation";
 
-export const PortfolioItem = ({ pixelStruct }) => {
+export const PortfolioItem = ({ pixelStruct, img }) => {
     return (
         <div className="flex relative w-full justify-center overflow-hidden">
-            <img className="w-4/5 h-[50vh]" src="img/ethers_pixel.png" alt="" /> 
+            <img className="w-4/5 h-[50vh]" src={img} alt="" /> 
             <div className="absolute top-0">
                 {pixelStruct.map((y, index) => {
                     return (

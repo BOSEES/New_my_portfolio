@@ -6,7 +6,8 @@ import portfolioData from "../data/portfolio.json";
 export const Portfolio = ({ parentNode }) => {
     const imageWidth = parentNode.current.clientWidth / 15;
     const imageHeight = parentNode.current.clientHeight / 15;
-    const [ page, setPage ] = useState();
+    let [ page, setPage ] = useState(0);
+    let [ detail, setDetail ] = useState(false);
     let pixelStruct = [];
 
     for(let i = 0; i <= imageHeight; i++) {
@@ -17,27 +18,65 @@ export const Portfolio = ({ parentNode }) => {
         pixelStruct.push(temp)
     }
 
+    const handleRightArrow = () => {
+        if (page < portfolioData.length - 1) setPage(page + 1);
+    }
+
+    const handleLeftArrow = () => {
+        if (page > 0) setPage(page - 1);
+    }
+
+    const handleDetailView = () => {
+        setDetail(true);
+    }
+
+    const handleGoBack = () => {
+        setDetail(false);
+    }
+
     return (
-        <div className="p-10">
-            {page === 1 && }
-            {/* {portfolioData.map((item) => {
-                const { img } = item;
-                return <PortfolioItem pixelStruct={pixelStruct} img={img}/>
-            })} */}
-            <div className="flex mt-5">
-                <img src="img/left_arrow.png" className="w-10 h-10 m-1" alt="right arrow"/>
-                <img src="img/right_arrow.png" className="w-10 h-10 m-1" alt="left arrow"/>
+        <>
+        {
+            detail ?
+                <div>
+                    <div className="flex items-center hover:shadow-pixelSmall w-32 cursor-pointer" onClick={handleGoBack}>
+                        <img src="img/left_arrow.png" className="w-10 h-10 m-1" alt="right arrow"/>
+                        <h1 className="text-[5vh]">Back</h1>
+                    </div>
+                    <div>
+                        <PortfolioItem pixelStruct={pixelStruct} img={portfolioData[page].img} detail={detail}/>
+                        <div>
+                            <h2 className="text-xSmall mb-5">주 사용기술: {portfolioData[page].usedSkill}</h2>
+                            <p className="mb-5">{portfolioData[page].description}</p>
+                            <ul className="list-disc ml-5">
+                                {portfolioData[page].ing.map((e) => {
+                                    return <li className="text-xxSmall">{e}</li>
+                                })}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            :
+            <div className="p-10">
+                {page === 0 && <PortfolioItem pixelStruct={pixelStruct} img={portfolioData[page].img} detail={detail}/>}
+                {page === 1 && <PortfolioItem pixelStruct={pixelStruct} img={portfolioData[page].img} detail={detail}/>}
+                {page === 2 && <PortfolioItem pixelStruct={pixelStruct} img={portfolioData[page].img} detail={detail}/>}
+                <div className="flex mt-5">
+                    <img src="img/left_arrow.png" className="w-10 h-10 m-1 hover:shadow-pixelSmall" alt="right arrow" onClick={handleLeftArrow}/>
+                    <img src="img/right_arrow.png" className="w-10 h-10 m-1 hover:shadow-pixelSmall" alt="left arrow" onClick={handleRightArrow}/>
+                </div>
+                <div className="flex items-center">
+                    {portfolioData.map((dot, index) => {
+                        return <NavigationDot key={index} page={page} index={index}/>
+                    })}
+                </div>
+                <div className="hover:underline cursor-pointer" onClick={handleDetailView}>
+                    <h1 className="text-[5vh]">{portfolioData[page].title}</h1>
+                    <h2 className="text-[3vh]">{portfolioData[page].period}</h2>
+                    <h3 className="text-[2vh]">{portfolioData[page].stack}</h3>
+                </div>
             </div>
-            <div className="flex">
-                {portfolioData.map((dot ,index) => {
-                    return <NavigationDot index={index}/>
-                })}
-            </div>
-            <div>
-                <h1 className="text-[5vh]">PERI Finance NEND Project</h1>
-                <h2 className="text-[3vh]">기간</h2>
-                <h3 className="text-[2vh]">설명</h3>
-            </div>
-        </div>
+        }
+        </>
     );
 }

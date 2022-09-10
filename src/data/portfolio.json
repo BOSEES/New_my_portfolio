@@ -1,8 +1,56 @@
 [
     {
-        "title": "PERI Finance NEND Project",
-        "img":"",
-        "period":"기간",
-        "description":"설명"
+        "title": "PERI Finance NEND Project1",
+        "img":"img/docker_pixel.png",
+        "period":"기간1",
+        "stack": "Front-End",
+        "usedSkill": "React / Ethers.js / SmartContract",
+        "description": "안녕하세요. \n 저는 현재 FullStack 직군에서 프로젝트를 진행하고 있습니다. \n Javascript 언어를 가장 좋아합니다. 또한 흥미를 가지고 있는 언어는 Rust 입니다.\n FrontEnd 및 BackEnd 직군으로 프로젝트를 진행한 경력이 있습니다. \n\n 현재는 크로스체인 합성자산 DeFi 플랫폼 PERI 프로젝트와 NFT 대출 플랫폼 NEND 프로젝트를 진행중입니다. \n 탈중앙화를 기반으로 한 기술 트렌드와 실제 프로덕션의 중간에서 효율점을 찾아가며\n 하루하루 발전해 나가고 있습니다. 잘 부탁드립니다.",
+        "ing": [
+            "국립농업과학원 봉군형성실 iot Project의 web console 개발진행",
+            "Flask / mysql 로 개발된 서버의 API Data를 기반으로",
+            "React / Material-UI로 개발.",
+            "실시간 데이터 fetching 처리 및 Data Visualization 개발",
+            "국립농업과학원 봉군형성실 iot Project의 web console 개발진행",
+            "Flask / mysql 로 개발된 서버의 API Data를 기반으로",
+            "React / Material-UI로 개발.",
+            "실시간 데이터 fetching 처리 및 Data Visualization 개발"
+        ]
+    },
+    {
+        "title": "PERI Finance NEND Project2",
+        "img":"img/docker_pixel.png",
+        "period":"기간2",
+        "stack": "Front-End",
+        "usedSkill": "React / Ethers.js / SmartContract",
+        "description": "안녕하세요. \n 저는 현재 FullStack 직군에서 프로젝트를 진행하고 있습니다. \n Javascript 언어를 가장 좋아합니다. 또한 흥미를 가지고 있는 언어는 Rust 입니다.\n FrontEnd 및 BackEnd 직군으로 프로젝트를 진행한 경력이 있습니다. \n\n 현재는 크로스체인 합성자산 DeFi 플랫폼 PERI 프로젝트와 NFT 대출 플랫폼 NEND 프로젝트를 진행중입니다. \n 탈중앙화를 기반으로 한 기술 트렌드와 실제 프로덕션의 중간에서 효율점을 찾아가며\n 하루하루 발전해 나가고 있습니다. 잘 부탁드립니다.",
+        "ing": [
+            "국립농업과학원 봉군형성실 iot Project의 web console 개발진행",
+            "Flask / mysql 로 개발된 서버의 API Data를 기반으로",
+            "React / Material-UI로 개발.",
+            "실시간 데이터 fetching 처리 및 Data Visualization 개발",
+            "국립농업과학원 봉군형성실 iot Project의 web console 개발진행",
+            "Flask / mysql 로 개발된 서버의 API Data를 기반으로",
+            "React / Material-UI로 개발.",
+            "실시간 데이터 fetching 처리 및 Data Visualization 개발"
+        ]
+    },
+    {
+        "title": "PERI Finance NEND Project3",
+        "img":"img/docker_pixel.png",
+        "period":"기간3",
+        "stack": "Front-End",
+        "usedSkill": "React / Ethers.js / SmartContract",
+        "description": "안녕하세요. \n 저는 현재 FullStack 직군에서 프로젝트를 진행하고 있습니다. \n Javascript 언어를 가장 좋아합니다. 또한 흥미를 가지고 있는 언어는 Rust 입니다.\n FrontEnd 및 BackEnd 직군으로 프로젝트를 진행한 경력이 있습니다. \n\n 현재는 크로스체인 합성자산 DeFi 플랫폼 PERI 프로젝트와 NFT 대출 플랫폼 NEND 프로젝트를 진행중입니다. \n 탈중앙화를 기반으로 한 기술 트렌드와 실제 프로덕션의 중간에서 효율점을 찾아가며\n 하루하루 발전해 나가고 있습니다. 잘 부탁드립니다.",
+        "ing": [
+            "국립농업과학원 봉군형성실 iot Project의 web console 개발진행",
+            "Flask / mysql 로 개발된 서버의 API Data를 기반으로",
+            "React / Material-UI로 개발.",
+            "실시간 데이터 fetching 처리 및 Data Visualization 개발",
+            "국립농업과학원 봉군형성실 iot Project의 web console 개발진행",
+            "Flask / mysql 로 개발된 서버의 API Data를 기반으로",
+            "React / Material-UI로 개발.",
+            "실시간 데이터 fetching 처리 및 Data Visualization 개발"
+        ]
     }
 ]

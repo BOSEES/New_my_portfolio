@@ -12,7 +12,9 @@ module.exports = {
 			fontSize: {
 				large: "13rem",
 				medium: "7rem",
-				small: "3rem"
+				small: "3rem",
+				xSmall: "2rem",
+				xxSmall: "1rem",
 			},
 			boxShadow: {
 				pixelLarge: [
