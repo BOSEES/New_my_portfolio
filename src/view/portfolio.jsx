@@ -1,8 +1,12 @@
-import { PixelAnimation } from "../components/pixelAnimation";
+import { useState } from "react";
+import { NavigationDot } from "../components/navigation_dot";
+import { PortfolioItem } from "../components/portfolio_item";
+import portfolioData from "../data/portfolio.json";
 
-export const Portfolio = ({ test }) => {
-    const imageWidth = test.current.clientWidth / 15;
-    const imageHeight = test.current.clientHeight / 15;
+export const Portfolio = ({ parentNode }) => {
+    const imageWidth = parentNode.current.clientWidth / 15;
+    const imageHeight = parentNode.current.clientHeight / 15;
+    const [ page, setPage ] = useState();
     let pixelStruct = [];
 
     for(let i = 0; i <= imageHeight; i++) {
@@ -15,29 +19,24 @@ export const Portfolio = ({ test }) => {
 
     return (
         <div className="p-10">
-            <div className="flex relative w-full justify-center overflow-hidden">
-                <img className="w-4/5 h-[50vh]" src="img/ethers_pixel.png" alt="" /> 
-                <div className="absolute top-0">
-                    {pixelStruct.map((y, index) => {
-                        return (
-                            <div className="flex w-full" key={index}>
-                                {y.map((x, index) => {
-                                    return (
-                                        <PixelAnimation key={index}/>
-                                    )
-                                })}
-                            </div>
-                        )
-                    })}
-                </div>
+            {page === 1 && }
+            {/* {portfolioData.map((item) => {
+                const { img } = item;
+                return <PortfolioItem pixelStruct={pixelStruct} img={img}/>
+            })} */}
+            <div className="flex mt-5">
+                <img src="img/left_arrow.png" className="w-10 h-10 m-1" alt="right arrow"/>
+                <img src="img/right_arrow.png" className="w-10 h-10 m-1" alt="left arrow"/>
             </div>
-            <div className="">
-                
-            </div> 
+            <div className="flex">
+                {portfolioData.map((dot ,index) => {
+                    return <NavigationDot index={index}/>
+                })}
+            </div>
             <div>
-                <h1>PERI Finance NEND Project</h1>
-                <h2>기간</h2>
-                <h3>설명</h3>
+                <h1 className="text-[5vh]">PERI Finance NEND Project</h1>
+                <h2 className="text-[3vh]">기간</h2>
+                <h3 className="text-[2vh]">설명</h3>
             </div>
         </div>
     );

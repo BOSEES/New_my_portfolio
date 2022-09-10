@@ -10,7 +10,7 @@ const App = () => {
 	const [toggle, setToggle] = useState(false);
 	const [page, setPage] = useState(1);
 
-	const test = useRef();
+	const parentNode = useRef();
 
 	return (
 		<section className="flex">
@@ -18,10 +18,10 @@ const App = () => {
 				<>
 					<SelfIntro setPage={setPage} page={page} />
 					<div className="w-full p-6">
-						<div ref={test} className="scrollHidden w-full h-[92vh] shadow-pixelMedium overflow-y-auto flex flex-col p-5 text-white">
+						<div ref={parentNode} className="scrollHidden w-full h-[92vh] shadow-pixelMedium overflow-y-auto flex flex-col p-5 text-white">
 							{page === 1 && <About />}
 							{page === 2 && <Resume />}
-							{page === 3 && <Portfolio test={test} />}
+							{page === 3 && <Portfolio parentNode={parentNode} />}
 							{page === 4 && <Blog />}
 						</div>
 					</div>
