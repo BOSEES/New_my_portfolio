@@ -19,13 +19,14 @@ export const CategoryModal = ({title, index, image, setPage, page}) => {
                 onClick={() => setPage(index + 1)}
                 onMouseMove={() => handleMouseMove(title)}
                 onMouseOut={() => handleMouseOut()}
+                alt="tab"
             />
             {hover && 
                 <div className="shadow-pixelSmall absolute top-0 right-10 pl-2 pr-2">
                     <h2 className="text-white">{hover}</h2>
                 </div>
             }
-            {page == index + 1 &&
+            {page = index + 1 &&
                 <div className="w-2 h-2 rounded-full bg-make-light-green absolute -top-2 -right-2"/>    
             }
         </div>

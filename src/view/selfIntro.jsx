@@ -52,7 +52,7 @@ export const SelfIntro = ({ setPage, page }) => {
 					<h2 className="text-white">관심사에 대해 궁금한 점이 있다면,</h2>
 					<br />
 					<div className="flex">
-						<img className="mr-2 w-6 h-6" src="img/mail1.png" />
+						<img className="mr-2 w-6 h-6" src="img/mail1.png" alt="email"/>
 						<h2 className="text-make-light-green">rladuddlf320@gmail.com</h2>
 					</div>
 					<h2 className="text-white">위의 이메일로 언제든지 연락을 주세요.</h2>
