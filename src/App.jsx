@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "./App.css";
 import { SelfIntro } from "./view/selfIntro";
 import { About } from "./view/about";
@@ -10,16 +10,18 @@ const App = () => {
 	const [toggle, setToggle] = useState(false);
 	const [page, setPage] = useState(1);
 
+	const test = useRef();
+
 	return (
 		<section className="flex">
 			{toggle ? (
 				<>
 					<SelfIntro setPage={setPage} page={page} />
 					<div className="w-full p-6">
-						<div className="scrollHidden w-full h-[92vh] shadow-pixelMedium overflow-y-auto flex flex-col p-5 text-white">
+						<div ref={test} className="scrollHidden w-full h-[92vh] shadow-pixelMedium overflow-y-auto flex flex-col p-5 text-white">
 							{page === 1 && <About />}
 							{page === 2 && <Resume />}
-							{page === 3 && <Portfolio />}
+							{page === 3 && <Portfolio test={test} />}
 							{page === 4 && <Blog />}
 						</div>
 					</div>

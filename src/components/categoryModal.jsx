@@ -26,7 +26,7 @@ export const CategoryModal = ({title, index, image, setPage, page}) => {
                     <h2 className="text-white">{hover}</h2>
                 </div>
             }
-            {page = index + 1 &&
+            {page === index + 1 &&
                 <div className="w-2 h-2 rounded-full bg-make-light-green absolute -top-2 -right-2"/>    
             }
         </div>
