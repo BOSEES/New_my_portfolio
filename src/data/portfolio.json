@@ -1,56 +1,67 @@
 [
     {
-        "title": "PERI Finance NEND Project1",
-        "img":"img/chainlink.png",
-        "period":"기간1",
-        "stack": "Front-End",
-        "usedSkill": "React / Ethers.js / SmartContract",
-        "description": "안녕하세요. \n 저는 현재 FullStack 직군에서 프로젝트를 진행하고 있습니다. \n Javascript 언어를 가장 좋아합니다. 또한 흥미를 가지고 있는 언어는 Rust 입니다.\n FrontEnd 및 BackEnd 직군으로 프로젝트를 진행한 경력이 있습니다. \n\n 현재는 크로스체인 합성자산 DeFi 플랫폼 PERI 프로젝트와 NFT 대출 플랫폼 NEND 프로젝트를 진행중입니다. \n 탈중앙화를 기반으로 한 기술 트렌드와 실제 프로덕션의 중간에서 효율점을 찾아가며\n 하루하루 발전해 나가고 있습니다. 잘 부탁드립니다.",
+        "title": "PERI Finance Project",
+        "img":"img/peri_banner.jpeg",
+        "period":"2022.04 ~ 현재",
+        "stack": "FullStack & Smart Contract",
+        "usedSkill": "React(TypeScript) / Web3.js / Apollo / ChainLink / TheGraph / AWS / HardHat / Nginx / GraphQL / PM2 / Cron ...",
+        "description": "PERI Finance는 제한 없는 유동성을 공급 가능하게 해주는, 탈중앙화 크로스 체인 합성 자산 및 파생상품 교환 프로토콜. PERI Finance를 통해, 어떤 유저든 제한 없이 전통 금융 상품 및 크립토 상품을 이용할 수 있음. 또한, PERI Finance는 현재 DeFi 프로젝트들이 겪고 있는 이더리움 상의 높은 가스 비용, 느린 처리 속도, Front Running 및 Flash loan(무담보 대출) 공격 등의 문제점들에 대해, OVM(Optimistic Virtual Machine)와 Layer2를 결합해 솔루션을 제공",
         "ing": [
-            "국립농업과학원 봉군형성실 iot Project의 web console 개발진행",
-            "Flask / mysql 로 개발된 서버의 API Data를 기반으로",
-            "React / Material-UI로 개발.",
-            "실시간 데이터 fetching 처리 및 Data Visualization 개발",
-            "국립농업과학원 봉군형성실 iot Project의 web console 개발진행",
-            "Flask / mysql 로 개발된 서버의 API Data를 기반으로",
-            "React / Material-UI로 개발.",
-            "실시간 데이터 fetching 처리 및 Data Visualization 개발"
+            "PERI Finance와 관련된 봇 운영 및 리팩토링 (Staking, Bridge, liquidate ...)",
+            "PERI DeFi Platform Crosschain Bridge (Light Client & Relay) 시스템 개발/운영",
+            "GraphQl / PostgreSQL / Apollo 사용해 DEX 가격 차트, 합성자산 통계 이벤트 핸들러 서버 구축",
+            "트랜잭션 모니터링 시스탬 구현 / 운영",
+            "ChainLink Price Feed 데이터와 자산의 통계를 얻기 위해 TheGraph 인프라 재구축",
+            "방대한 양의 PERI Finance SmartContract 리팩토링 및 운영"
         ]
     },
     {
-        "title": "PERI Finance NEND Project2",
-        "img":"img/docker_pixel.png",
-        "period":"기간2",
-        "stack": "Front-End",
-        "usedSkill": "React / Ethers.js / SmartContract",
-        "description": "안녕하세요. \n 저는 현재 FullStack 직군에서 프로젝트를 진행하고 있습니다. \n Javascript 언어를 가장 좋아합니다. 또한 흥미를 가지고 있는 언어는 Rust 입니다.\n FrontEnd 및 BackEnd 직군으로 프로젝트를 진행한 경력이 있습니다. \n\n 현재는 크로스체인 합성자산 DeFi 플랫폼 PERI 프로젝트와 NFT 대출 플랫폼 NEND 프로젝트를 진행중입니다. \n 탈중앙화를 기반으로 한 기술 트렌드와 실제 프로덕션의 중간에서 효율점을 찾아가며\n 하루하루 발전해 나가고 있습니다. 잘 부탁드립니다.",
+        "title": "NEND Project - NFT Minting site",
+        "img":"img/mint_site.png",
+        "period":"2022.04 ~ 2022.6",
+        "stack": "FullStack & Smart Contract",
+        "usedSkill": "React(TypeScript) / Ethers.js / Recoil / Express / IPFS / HardHat / AWS",
+        "description": "NFT 랜딩 플랫폼 NEND에서 NFT의 가치를 결정하는 큐레이터들의 큐레이팅 파워를 NFT로 구현해 생태계에 합류할 수 있도록 하는 큐레이팅 파워 NFT Card 민팅 사이트",
         "ing": [
-            "국립농업과학원 봉군형성실 iot Project의 web console 개발진행",
-            "Flask / mysql 로 개발된 서버의 API Data를 기반으로",
-            "React / Material-UI로 개발.",
-            "실시간 데이터 fetching 처리 및 Data Visualization 개발",
-            "국립농업과학원 봉군형성실 iot Project의 web console 개발진행",
-            "Flask / mysql 로 개발된 서버의 API Data를 기반으로",
-            "React / Material-UI로 개발.",
-            "실시간 데이터 fetching 처리 및 Data Visualization 개발"
+            "스마트 컨트랙트 Proxy Pattern 적용",
+            "신뢰성을 보장하기위해 IPFS Node 활용",
+            "스마트 컨트랙트 배포와 테스트 환경을 위한 HardHat 사용",
+            "Web.js 보단 signing 단순화를 위해 Ethers.js 채택",
+            "Whitelist 기능을 위해 Merkle proof API 구축",
+            "미스터리 박스를 오픈하는 형태의 Reveal 기능 적용 및 미리보기 이슈를 해결하기 위해 메테데이터 암호화",
+            "이미지 조합 라이브러리 Hashlips Art Engine 커스터마이징 (조합 통계 추출 및 암호화 로직 추가)",
+            "OpenSea 메타데이터 Refresh Bot 적용",
+            "가스비 부담을 줄이기 위해 Polygon Network 채택 및 Wrapped ETH Contract 사용"
         ]
     },
     {
-        "title": "PERI Finance NEND Project3",
-        "img":"img/docker_pixel.png",
-        "period":"기간3",
+        "title": "My Info Market - 마이데이터를 공유하는 세상",
+        "img":"img/myinfomarket3.png",
+        "period":"2022.01 ~ 2022.04",
         "stack": "Front-End",
-        "usedSkill": "React / Ethers.js / SmartContract",
-        "description": "안녕하세요. \n 저는 현재 FullStack 직군에서 프로젝트를 진행하고 있습니다. \n Javascript 언어를 가장 좋아합니다. 또한 흥미를 가지고 있는 언어는 Rust 입니다.\n FrontEnd 및 BackEnd 직군으로 프로젝트를 진행한 경력이 있습니다. \n\n 현재는 크로스체인 합성자산 DeFi 플랫폼 PERI 프로젝트와 NFT 대출 플랫폼 NEND 프로젝트를 진행중입니다. \n 탈중앙화를 기반으로 한 기술 트렌드와 실제 프로덕션의 중간에서 효율점을 찾아가며\n 하루하루 발전해 나가고 있습니다. 잘 부탁드립니다.",
+        "usedSkill": "React Native / Web3.js / W3C DID VC/VP Formet",
+        "description": "마이인포마켓은 블록체인 기반 개인 데이터 마켓 플랫폼. 마이데이터 운영 및 거래를 개인이 주도적으로 운영하며 그에 따른 보상이 주어짐. 블록체인 기술을 사용하여 개인 데이터 보호를 강화하고 DID 기술을 이용해 디지털 자산화를 가능하게 함",
         "ing": [
-            "국립농업과학원 봉군형성실 iot Project의 web console 개발진행",
-            "Flask / mysql 로 개발된 서버의 API Data를 기반으로",
-            "React / Material-UI로 개발.",
-            "실시간 데이터 fetching 처리 및 Data Visualization 개발",
-            "국립농업과학원 봉군형성실 iot Project의 web console 개발진행",
-            "Flask / mysql 로 개발된 서버의 API Data를 기반으로",
-            "React / Material-UI로 개발.",
-            "실시간 데이터 fetching 처리 및 Data Visualization 개발"
+            "W3C에서 제공하는 DID 표준 VC/VP 포멧을 통한 서비스 구현",
+            "React Native / Styeld-Component로 개발",
+            "소셜 로그인 서비스 구현",
+            "목업 디자인 설계 및 UI/UX 협업"
+        ]
+    },
+    {
+        "title": "Heart Link - 경기도 블록체인 해커톤 우수상",
+        "img":"img/heart_link.png",
+        "period":"2020.06 ~ 2020.09",
+        "stack": "Front-End & Smart Contract",
+        "usedSkill": "React / Caver.js / MongoDB / Klaytn",
+        "description": "소상공인들이 플랫폼에 직접 광고를 개재하고 참여자들에게 보상을 나누어, SNS 마케팅에 만연하는 어뷰징을 막고 신뢰 할 수 있는 실효성을 만드는 블록체인 기반 클라우드 소싱 마케팅 플랫폼",
+        "ing": [
+            "빠른 TPS를 자랑하는 Klaytn 블록체인 사용",
+            "Express / MongDB를 통해 블록체인 READ 데이터 최적화",
+            "React / Module CSS 로 개발.",
+            "Solidity 언어 기반 Heart Link Contact 개발",
+            "KAS 서비스를 이용해 토큰 발행 및 광고 개제 이벤트 추적 & 핸들링",
+            "보상 받은 토큰을 재수익 창출할 수 있도록 스테이킹 시스탬 구현"
         ]
     }
 ]
