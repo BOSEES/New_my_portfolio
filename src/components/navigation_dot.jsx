@@ -1,5 +1,4 @@
 export const NavigationDot = ({ page, index }) => {
-
     return (
         <>
             {index === page ?

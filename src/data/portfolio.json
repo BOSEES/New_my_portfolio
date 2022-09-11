@@ -1,7 +1,7 @@
 [
     {
         "title": "PERI Finance NEND Project1",
-        "img":"img/docker_pixel.png",
+        "img":"img/chainlink.png",
         "period":"기간1",
         "stack": "Front-End",
         "usedSkill": "React / Ethers.js / SmartContract",

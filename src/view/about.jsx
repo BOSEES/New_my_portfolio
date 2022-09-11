@@ -2,6 +2,7 @@ import aboutData from "../data/about.json";
 import { AboutItem } from "../components/aboutItem";
 
 export const About = () => {
+
     return (
         <div className="p-2">
             <div className="border-t-4 relative mt-5">

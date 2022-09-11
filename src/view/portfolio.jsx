@@ -5,7 +5,7 @@ import portfolioData from "../data/portfolio.json";
 
 export const Portfolio = ({ parentNode }) => {
     const imageWidth = parentNode.current.clientWidth / 15;
-    const imageHeight = parentNode.current.clientHeight / 15;
+    const imageHeight = parentNode.current.clientHeight / 20;
     let [ page, setPage ] = useState(0);
     let [ detail, setDetail ] = useState(false);
     let pixelStruct = [];
@@ -39,9 +39,11 @@ export const Portfolio = ({ parentNode }) => {
         {
             detail ?
                 <div>
-                    <div className="flex items-center hover:shadow-pixelSmall w-32 cursor-pointer" onClick={handleGoBack}>
-                        <img src="img/left_arrow.png" className="w-10 h-10 m-1" alt="right arrow"/>
-                        <h1 className="text-[5vh]">Back</h1>
+                    <div className="flex cursor-pointer">
+                        <div className="flex items-center hover:shadow-pixelSmall cursor-pointer" onClick={handleGoBack}>
+                            <img src="img/left_arrow.png" className="w-10 h-10 m-1" alt="right arrow"/>
+                            <h1 className="text-[5vh]">Back</h1>
+                        </div>
                     </div>
                     <div>
                         <PortfolioItem pixelStruct={pixelStruct} img={portfolioData[page].img} detail={detail}/>
