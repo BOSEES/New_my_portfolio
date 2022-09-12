@@ -56,9 +56,9 @@ export const SelfIntro = ({ setPage, page }) => {
 						<h2 className="text-make-light-green">rladuddlf320@gmail.com</h2>
 					</div>
 					<h2 className="text-white">위의 이메일로 언제든지 연락을 주세요.</h2>
-					<h2 className="text-white">당신과 함께 성장하고 싶습니다.</h2>
+					<h2 className="text-white">같이 성장하고 싶습니다.</h2>
 					<br />
-					<h2 className="text-white">봐주셔서 감사합니다 :D</h2>
+					<h2 className="text-white">짧지 않은 내용 봐주셔서 감사합니다 :D</h2>
 					<h2 className="text-white">김영일 올림.</h2>
 					<br />
 					<h2 className="text-white">© 2022 Created by BOSEES</h2>
