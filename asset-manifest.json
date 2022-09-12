@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1e33bcc8.css",
+    "main.js": "/static/js/main.72a3b16a.js",
+    "static/media/GnuUnifontFull-Pm9P.ttf": "/static/media/GnuUnifontFull-Pm9P.f73330fc6338e4f9894a.ttf",
+    "index.html": "/index.html",
+    "main.1e33bcc8.css.map": "/static/css/main.1e33bcc8.css.map",
+    "main.72a3b16a.js.map": "/static/js/main.72a3b16a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e33bcc8.css",
+    "static/js/main.72a3b16a.js"
+  ]
+}
