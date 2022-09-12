@@ -38,6 +38,15 @@ module.exports = {
 			},
 			fontFamily: {
 				"pixel" : ["Pixel"]
+			},
+			// animation: {
+			// 	"loading": "loading 1s infinite alternate"
+			// },
+			keyframes: {
+				"loading": {
+					"0%": { opacity: 0 },
+					"100%": { opacity: 1 },
+				}
 			}
 		},
 	},

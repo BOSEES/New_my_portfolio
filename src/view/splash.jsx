@@ -18,6 +18,7 @@ export const Splash = ({ setToggle }) => {
             >
                 PRESS START
             </button>
+            
         </div>
     )
 }

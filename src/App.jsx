@@ -1,19 +1,22 @@
 import React, { useState } from "react";
+import { Loading } from "./components/loading";
 import "./App.css";
 
 import { Main } from "./view/main";
-import { Splash } from "./view/splash";
+import { useEffect } from "react";
 
 const App = () => {
-	const [toggle, setToggle] = useState(false);
+	const [toggle, setToggle] = useState(true);
 
+	useEffect(() => {
+		setTimeout(() => {
+			setToggle(false)
+		}, 2000)
+	})
 	return (
 		<section className="flex">
-			{toggle ? 
-				<Main/>
-				: 
-				<Splash setToggle={setToggle}/>
-			}
+			{toggle && <Loading />}
+			<Main />
 		</section>
 	);
 };

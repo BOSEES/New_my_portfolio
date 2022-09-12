@@ -1,5 +1,5 @@
-import blogItems from "../data/blog.json"
-import { BlogItem } from "../components/blogItem";
+// import blogItems from "../data/blog.json"
+// import { BlogItem } from "../components/blogItem";
 
 export const Blog = () => {
     return (
