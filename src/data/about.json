@@ -9,42 +9,42 @@
             "stack": [
                 {
                     "title": "Javascript",
-                    "img": "/img/javascript_pixel.png",
+                    "img": "img/javascript_pixel.png",
                     "isUsed": true
                 },
                 {
                     "title": "ES 6",
-                    "img": "/img/es6_pixel.png",
+                    "img": "img/es6_pixel.png",
                     "isUsed": true
                 },
                 {
                     "title": "Typescript",
-                    "img": "/img/typescript_pixel.png",
+                    "img": "img/typescript_pixel.png",
                     "isUsed": true
                 },
                 {
                     "title": "React",
-                    "img": "/img/react_pixel.png",
+                    "img": "img/react_pixel.png",
                     "isUsed": true
                 },
                 {
                     "title": "Redux",
-                    "img": "/img/redux_pixel.png",
+                    "img": "img/redux_pixel.png",
                     "isUsed": true
                 },
                 {
                     "title": "Recoil",
-                    "img": "/img/recoil_pixel.png",
+                    "img": "img/recoil_pixel.png",
                     "isUsed": true
                 },
                 {
                     "title": "StyledComponent",
-                    "img": "/img/styled_component_pixel.png",
+                    "img": "img/styled_component_pixel.png",
                     "isUsed": true
                 },
                 {
                     "title": "Tail-Wind",
-                    "img": "/img/tailwind_pixel.png",
+                    "img": "img/tailwind_pixel.png",
                     "isUsed": true
                 }
             ]
@@ -54,57 +54,57 @@
             "stack": [
                 {
                     "title": "Solidity",
-                    "img": "/img/solidity_pixel.png",
+                    "img": "img/solidity_pixel.png",
                     "isUsed": true
                 },
                 {
                     "title": "Web3.js",
-                    "img": "/img/web3_pixel.png",
+                    "img": "img/web3_pixel.png",
                     "isUsed": true
                 },
                 {
                     "title": "Ethers.js",
-                    "img": "/img/ethers_pixel.png",
+                    "img": "img/ethers_pixel.png",
                     "isUsed": true
                 },
                 {
                     "title": "HardHat",
-                    "img": "/img/hardhat_pixel.png",
+                    "img": "img/hardhat_pixel.png",
                     "isUsed": true
                 },
                 {
                     "title": "Express.js",
-                    "img": "/img/express_pixel.png",
+                    "img": "img/express_pixel.png",
                     "isUsed": false
                 },
                 {
                     "title": "Apollo",
-                    "img": "/img/apollo_pixel.png",
+                    "img": "img/apollo_pixel.png",
                     "isUsed": true
                 },
                 {
                     "title": "PostgreSQL",
-                    "img": "/img/postgre_pixel.png",
+                    "img": "img/postgre_pixel.png",
                     "isUsed": true
                 },
                 {
                     "title": "GraphQL",
-                    "img": "/img/graphql_pixel.png",
+                    "img": "img/graphql_pixel.png",
                     "isUsed": true
                 },
                 {
                     "title": "Prisma",
-                    "img": "/img/prisma_pixel.png",
+                    "img": "img/prisma_pixel.png",
                     "isUsed": true
                 },
                 {
                     "title": "MongoDB",
-                    "img": "/img/mongodb_pixel.png",
+                    "img": "img/mongodb_pixel.png",
                     "isUsed": false
                 },
                 {
                     "title": "Linux",
-                    "img": "/img/linux_pixel.png",
+                    "img": "img/linux_pixel.png",
                     "isUsed": true
                 }
             ]
@@ -114,22 +114,22 @@
             "stack": [
                 {
                     "title": "TheGraph",
-                    "img": "/img/thegraph_pixel.png",
+                    "img": "img/thegraph_pixel.png",
                     "isUsed": true
                 },
                 {
                     "title": "ChainLink",
-                    "img": "/img/chainlink.png",
+                    "img": "img/chainlink.png",
                     "isUsed": true
                 },
                 {
                     "title": "AWS",
-                    "img": "/img/aws_pixel.png",
+                    "img": "img/aws_pixel.png",
                     "isUsed": true
                 },
                 {
                     "title": "Docker",
-                    "img": "/img/docker_pixel.png",
+                    "img": "img/docker_pixel.png",
                     "isUsed": false
                 }
             ]
@@ -139,7 +139,7 @@
             "stack": [
                 {
                     "title": "Github-Action",
-                    "img": "/img/githubaction_pixel.png",
+                    "img": "img/githubaction_pixel.png",
                     "isUsed": true
                 }
             ]
@@ -149,7 +149,7 @@
             "stack": [
                 {
                     "title": "Github",
-                    "img": "/img/github_pixel.png",
+                    "img": "img/github_pixel.png",
                     "isUsed": true
                 }
             ]
@@ -159,12 +159,12 @@
             "stack": [
                 {
                     "title": "Remix",
-                    "img": "/img/remix_pixel.png",
+                    "img": "img/remix_pixel.png",
                     "isUsed": true
                 },
                 {
                     "title": "JIRA",
-                    "img": "/img/jira_pixel.png",
+                    "img": "img/jira_pixel.png",
                     "isUsed": true
                 }
             ]
