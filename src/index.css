@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: "Pixel";
-    font-display: swap;
-    src: url("/public/fonts/GnuUnifontFull-Pm9P.ttf") format("truetype");
+    font-display: block;
+    src: url("/public/fonts/GNUUnifontFull.woff") format("truetype");
 }
 
 @layer utilities {
