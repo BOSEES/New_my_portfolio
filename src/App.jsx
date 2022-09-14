@@ -11,7 +11,7 @@ const App = () => {
 	useEffect(() => {
 		setTimeout(() => {
 			setToggle(false)
-		}, 2000)
+		}, 3000)
 	})
 	return (
 		<section className="flex">
