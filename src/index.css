@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: "Pixel";
-    font-display: swap;
+    font-display: block;
     src: url("/public/fonts/GNUUnifontFull.woff") format("woff");
 }
 
