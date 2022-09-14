@@ -11,10 +11,10 @@ const App = () => {
 	useEffect(() => {
 		setTimeout(() => {
 			setToggle(false)
-		}, 3000)
+		}, 2000)
 	})
 	return (
-		<section className="flex md:flex-col" onScroll={() => console.log("asdas")}>
+		<section className="flex md:h-screnn md:flex-col">
 			{toggle && <Loading />}
 			<Main />
 		</section>

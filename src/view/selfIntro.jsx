@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 import { Avatar } from "../components/avatar";
 import { CategoryModal } from "../components/categoryModal";
 
@@ -23,32 +23,32 @@ const images = [
 
 export const SelfIntro = ({ setPage, page }) => {
 	const navRef = useRef();
-	let flag = false;
+	// let flag = false;
 
-	const handleScroll = (y) => {
-		window.addEventListener("scroll", () => {
-			const value = window.scrollY;
-			const selector = navRef.current.className;
-			if (value >= y && !flag) {
-				flag = true;
-				navRef.current.className = `${selector} scrollOn`;
-			} else if (value < y && flag){
-				const selectorJoin = selector.split(" ");
-				selectorJoin.pop();
-				navRef.current.className = selectorJoin.join(" ");
-				flag = false;
-			}
-		})
-	}
+	// const handleScroll = (y) => {
+	// 	window.addEventListener("scroll", () => {
+	// 		const value = window.scrollY;
+	// 		const selector = navRef.current.className;
+	// 		if (value > y && !flag) {
+	// 			flag = true;
+	// 			navRef.current.className = `${selector} scrollOn`;
+	// 		} else if (value < y && flag){
+	// 			const selectorJoin = selector.split(" ");
+	// 			selectorJoin.pop();
+	// 			navRef.current.className = selectorJoin.join(" ");
+	// 			flag = false;
+	// 		}
+	// 	})
+	// }
 
-	useEffect(() => {
-		const scroll = handleScroll(navRef.current.offsetTop);
+	// useEffect(() => {
+	// 	const scroll = handleScroll(navRef.current.offsetTop);
 
-		return () => scroll;
-	}, [])
+	// 	return () => scroll;
+	// }, [])
 
 	return (
-		<div className="flex flex-col justify-center p-10 h-screen w-7/12 md:w-full md:h-auto md:p-8 md:w-full">
+		<div className="flex flex-col justify-center p-10 h-screen w-7/12 md:w-full md:h-auto md:pb-0 md:pt-8 md:pl-8 md:pr-8 md:w-full">
 			<div className="flex items-center flex-wrap md:flex-row md:justify-between">
 				<Avatar />
 				<div className="min-w-200">
@@ -68,8 +68,8 @@ export const SelfIntro = ({ setPage, page }) => {
 					</h2>
 				</div>
 			</div>
-			<div className="flex justify-between">
-				<div className="mt-10 md:hidden">
+			<div ref={navRef} className="flex justify-between pt-8 pb-8">
+				<div className="mt-10 md:hidden md:mt-0">
 					<h2 className="text-white">현재 사이트는</h2>
 					<h2 className="text-white">React / tail-wind </h2>
 					<h2 className="text-white">등을 사용하여 제작되었습니다.</h2>
@@ -89,7 +89,7 @@ export const SelfIntro = ({ setPage, page }) => {
 					<br />
 					<h2 className="text-white">© 2022 Created by BOSEES</h2>
 				</div>
-				<div ref={navRef} className="mt-8 md:flex md:justify-between md:w-full md:mt-5">
+				<div className="md:flex md:justify-between md:w-full">
 					{images.map((category, index) => {
 						const { title, image } = category;
 						return (

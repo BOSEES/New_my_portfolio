@@ -59,7 +59,7 @@ export const Portfolio = ({ parentNode }) => {
                     </div>
                 </div>
             :
-            <div className="p-10">
+            <div className="p-10 md:p-0">
                 {page === 0 && <PortfolioItem pixelStruct={pixelStruct} img={portfolioData[page].img} detail={detail}/>}
                 {page === 1 && <PortfolioItem pixelStruct={pixelStruct} img={portfolioData[page].img} detail={detail}/>}
                 {page === 2 && <PortfolioItem pixelStruct={pixelStruct} img={portfolioData[page].img} detail={detail}/>}

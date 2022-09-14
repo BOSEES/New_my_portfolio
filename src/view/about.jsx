@@ -13,7 +13,7 @@ export const About = () => {
                     {aboutData.introduce.description}
                 </p>
             </div>
-            <div className="flex justify-end">
+            <div className="flex justify-end md:mb-4">
                 <span className="flex">
                     <div className="flex justify-center items-center">
                         <h4 className="text-[12px]">현재 진행 중인 프로젝트에서 사용중:</h4>
@@ -33,7 +33,7 @@ export const About = () => {
                         <h1 className="text-1xl absolute left-10 -top-4 bg-black pl-4 pr-4 text-white">
                             {title}
                         </h1>
-                            <div className="flex pt-10 pl-5 pr-5 flex-wrap">
+                            <div className="flex pt-10 pl-5 pr-5 flex-wrap md:pl-0 md:pr-0">
                                 {stack.map((icon, index) => {
                                     const { title, img, isUsed } = icon;
 
