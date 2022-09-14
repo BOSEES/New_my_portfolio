@@ -14,7 +14,7 @@ const App = () => {
 		}, 3000)
 	})
 	return (
-		<section className="flex">
+		<section className="flex md:flex-col" onScroll={() => console.log("asdas")}>
 			{toggle && <Loading />}
 			<Main />
 		</section>

@@ -14,18 +14,20 @@ export const CategoryModal = ({title, index, image, setPage, page}) => {
 
     return (
         <div className="relative">
-            <img ref={pageRef} key={index + 1} className="mt-8 hover:cursor-pointer w-6 h-6"
+            <img ref={pageRef} key={index + 1} className="mt-8 hover:cursor-pointer w-6 h-6 md:mt-0"
                 src={image}
                 onClick={() => setPage(index + 1)}
                 onMouseMove={() => handleMouseMove(title)}
                 onMouseOut={() => handleMouseOut()}
                 alt="tab"
             />
-            {hover && 
-                <div className="shadow-pixelSmall absolute top-0 right-10 pl-2 pr-2">
-                    <h2 className="text-white">{hover}</h2>
-                </div>
-            }
+            <div className="md:hidden">
+                {hover && 
+                    <div className="shadow-pixelSmall absolute top-0 right-10 pl-2 pr-2">
+                        <h2 className="text-white">{hover}</h2>
+                    </div>
+                }
+            </div>
             {page === index + 1 &&
                 <div className="w-2 h-2 rounded-full bg-make-light-green absolute -top-2 -right-2"/>    
             }

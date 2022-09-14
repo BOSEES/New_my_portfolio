@@ -46,3 +46,13 @@
 .scrollHidden::-webkit-scrollbar {
 	display: none; /* for Chrome, Safari, and Opera */
 }
+
+.scrollOn {
+	position:fixed;
+	top: 0;
+	background-color: black;
+	z-index: 9999999;
+	/* padding-top: 1rem; */
+	margin: 0;
+	width: 100%;
+}

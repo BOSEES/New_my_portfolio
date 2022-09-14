@@ -17,7 +17,7 @@ export const Main = () => {
         <>
             <SelfIntro setPage={setPage} page={page} />
             <div className="w-full p-6">
-                    <div ref={parentNode} className="scrollHidden w-full h-[92vh] shadow-pixelMedium overflow-y-auto flex flex-col p-5 text-white">
+                    <div ref={parentNode} className="scrollHidden w-full h-[92vh] shadow-pixelMedium flex flex-col p-5 text-white">
                         {page === 1 && <About />}
                         {page === 2 && <Resume />}
                         {page === 3 && <Portfolio parentNode={parentNode} />}

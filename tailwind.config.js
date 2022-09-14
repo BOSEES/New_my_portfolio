@@ -39,9 +39,14 @@ module.exports = {
 			fontFamily: {
 				"pixel" : ["Pixel"]
 			},
-			// animation: {
-			// 	"loading": "loading 1s infinite alternate"
-			// },
+			screens: {
+				"md": {
+					"max": "767px"
+				},
+				"sm": {
+					"max": "639px"
+				}
+			},
 			keyframes: {
 				"loading": {
 					"0%": { opacity: 0 },
