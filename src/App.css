@@ -38,21 +38,38 @@
 }
 
 .scrollHidden {
-	-ms-overflow-style: none; /* for Internet Explorer, Edge */
-	scrollbar-width: none; /* for Firefox */
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 	overflow-y: scroll;
 }
 
 .scrollHidden::-webkit-scrollbar {
-	display: none; /* for Chrome, Safari, and Opera */
+	display: none;
 }
 
-.scrollOn {
-	/* position:fixed; */
-	/* top: 0; */
-	/* background-color: red;
-	z-index: 9999999; */
-	/* padding-top: 1rem; */
-	/* margin: 0; */
-	/* width: 100%; */
+/* .scrollOn {
+	position:fixed;
+	top: 0;
+	background-color: red;
+	z-index: 9999999;
+	padding-top: 1rem;
+	margin: 0;
+	width: 100%;
+} */
+
+.swiper .swiper-pagination-bullet {
+	background-color: #70EC4C;
+	margin: 0 5px !important;
+}
+
+.swiper-button-next {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding:1.5rem;
+	border-radius: 50%;
+}
+
+.swiper-button-prev {
+	background-color: rgba(0, 0, 0, 0.5);
+	padding:1.5rem;
+	border-radius: 50%;
 }

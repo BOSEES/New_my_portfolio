@@ -2,12 +2,14 @@ import { useState } from "react";
 import { NavigationDot } from "../components/navigation_dot";
 import { PortfolioItem } from "../components/portfolio_item";
 import portfolioData from "../data/portfolio.json";
+import { PortfolioModal } from "../components/portfolio_modal";
 
 export const Portfolio = ({ parentNode }) => {
     const imageWidth = parentNode.current.clientWidth / 15;
     const imageHeight = parentNode.current.clientHeight / 20;
     let [ page, setPage ] = useState(0);
     let [ detail, setDetail ] = useState(false);
+    let [ onModal, setOnModal ] = useState(false);
     let pixelStruct = [];
 
     for(let i = 0; i <= imageHeight; i++) {
@@ -34,6 +36,10 @@ export const Portfolio = ({ parentNode }) => {
         setDetail(false);
     }
 
+    const handleOnModal = (flag) => {
+        setOnModal(flag)
+    }
+
     return (
         <>
         {
@@ -47,8 +53,13 @@ export const Portfolio = ({ parentNode }) => {
                     </div>
                     <div className="m-2">
                         <PortfolioItem pixelStruct={pixelStruct} img={portfolioData[page].img} detail={detail}/>
+                            {onModal && <PortfolioModal handleOnModal={handleOnModal}/>}
                         <div className="shadow-pixelSmall p-2 mt-4">
                             <h2 className="text-xSmall mb-5">주 사용기술: {portfolioData[page].usedSkill}</h2>
+                            <h2 className="text-xxSmall mb-2 hover:underline cursor-pointer text-make-light-green" 
+                                onClick={() => handleOnModal(true)}>
+                                프로젝트 상세 보기
+                            </h2>
                             <p className="mb-5">{portfolioData[page].description}</p>
                             <ul className="list-disc ml-5">
                                 {portfolioData[page].ing.map((e) => {

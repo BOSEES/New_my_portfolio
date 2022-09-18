@@ -7,7 +7,8 @@ module.exports = {
 				"make-light-green": "#70EC4C",
 				"make-dark-green": "#2b5223",
 				"make-light-red": "#f01507",
-				"make-dark-red": "#4a0905"
+				"make-dark-red": "#4a0905",
+				"modal-bgc": "rgba(0, 0, 0, 0.8)"
 			},
 			fontSize: {
 				large: "13rem",
