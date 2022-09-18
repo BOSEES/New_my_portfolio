@@ -5,8 +5,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-export const PortfolioModal = ({ handleOnModal }) => {
-    
+export const PortfolioModal = ({ handleOnModal, portImages }) => {
+
     return (
         <div className="flex items-center justify-center fixed w-screen h-screen bg-modal-bgc top-0 left-0 p-10">
             <div className="flex flex-col w-3/5 h-full shadow-pixelMedium bg-black p-2 md:w-full">
@@ -33,21 +33,15 @@ export const PortfolioModal = ({ handleOnModal }) => {
                         "--swiper-navigation-size": "20px" 
                     }}
                 >
-                    <SwiperSlide>
-                        <div className="flex items-center w-full h-full">
-                            <img className="w-full h-3/5" src="img/dex_chart.png"></img>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="flex items-center w-full h-full">
-                            <img className="w-full h-3/5" src="img/aws_pixel.png"></img>
-                        </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="flex items-center w-full h-full">
-                            <img className="w-full h-3/5" src="img/dex_chart.png"></img>
-                        </div>
-                    </SwiperSlide>
+                    {portImages.map((image, index) => {
+                        return (
+                            <SwiperSlide key={index}>
+                                <div className="flex items-center w-full h-full">
+                                    <img className="w-full h-3/5" src={image} alt="Portfolio"/>
+                                </div>
+                            </SwiperSlide>
+                        )   
+                    })}
                 </Swiper>
             </div>
         </div>

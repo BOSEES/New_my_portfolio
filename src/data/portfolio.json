@@ -13,11 +13,20 @@
             "트랜잭션 모니터링 시스탬 구현 / 운영",
             "ChainLink Price Feed 데이터와 자산의 통계를 얻기 위해 TheGraph 인프라 재구축",
             "방대한 양의 PERI Finance SmartContract 리팩토링 및 운영"
+        ],
+        "portImages": [
+            "img/perifinance_port_image/peri1.webp",
+            "img/perifinance_port_image/peri2.webp",
+            "img/perifinance_port_image/peri3.webp",
+            "img/perifinance_port_image/peri4.webp",
+            "img/perifinance_port_image/peri5.webp",
+            "img/perifinance_port_image/peri6.webp",
+            "img/perifinance_port_image/peri7.webp"
         ]
     },
     {
         "title": "NEND Project - NFT Minting site",
-        "img":"img/mint_site.png",
+        "img":"img/mint_site.webp",
         "period":"2022.04 ~ 2022.6",
         "stack": "FullStack & Smart Contract",
         "usedSkill": "React(TypeScript) / Ethers.js / Recoil / Express / IPFS / HardHat / AWS",
@@ -32,6 +41,15 @@
             "이미지 조합 라이브러리 Hashlips Art Engine 커스터마이징 (조합 통계 추출 및 암호화 로직 추가)",
             "OpenSea 메타데이터 Refresh Bot 적용",
             "가스비 부담을 줄이기 위해 Polygon Network 채택 및 Wrapped ETH Contract 사용"
+        ],
+        "portImages": [
+            "img/nend_nft/nft1.webp",
+            "img/mint_site.webp",
+            "img/nend_nft/nft3.webp",
+            "img/nend_nft/nft4.webp",
+            "img/nend_nft/nft5.webp",
+            "img/nend_nft/nft6.webp",
+            "img/nend_nft/nft7.webp"
         ]
     },
     {
@@ -46,7 +64,8 @@
             "React Native / Styeld-Component로 개발",
             "소셜 로그인 서비스 구현",
             "목업 디자인 설계 및 UI/UX 협업"
-        ]
+        ],
+        "portImages": []
     },
     {
         "title": "Heart Link - 경기도 블록체인 해커톤 우수상",
@@ -62,6 +81,7 @@
             "Solidity 언어 기반 Heart Link Contact 개발",
             "KAS 서비스를 이용해 토큰 발행 및 광고 개제 이벤트 추적 & 핸들링",
             "보상 받은 토큰을 재수익 창출할 수 있도록 스테이킹 시스탬 구현"
-        ]
+        ],
+        "portImages": []
     }
 ]

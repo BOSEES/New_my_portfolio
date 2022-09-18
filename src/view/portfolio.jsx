@@ -53,17 +53,20 @@ export const Portfolio = ({ parentNode }) => {
                     </div>
                     <div className="m-2">
                         <PortfolioItem pixelStruct={pixelStruct} img={portfolioData[page].img} detail={detail}/>
-                            {onModal && <PortfolioModal handleOnModal={handleOnModal}/>}
+                        {onModal && <PortfolioModal handleOnModal={handleOnModal} portImages={portfolioData[page].portImages}/>}
                         <div className="shadow-pixelSmall p-2 mt-4">
                             <h2 className="text-xSmall mb-5">주 사용기술: {portfolioData[page].usedSkill}</h2>
-                            <h2 className="text-xxSmall mb-2 hover:underline cursor-pointer text-make-light-green" 
-                                onClick={() => handleOnModal(true)}>
-                                프로젝트 상세 보기
-                            </h2>
+                            {portfolioData[page].portImages.length > 0 && 
+                                <h2 className="text-xxSmall mb-2 hover:underline cursor-pointer text-make-light-green" 
+                                    onClick={() => handleOnModal(true)}>
+                                    프로젝트 상세 보기
+                                </h2>
+                            }
+                            
                             <p className="mb-5">{portfolioData[page].description}</p>
                             <ul className="list-disc ml-5">
-                                {portfolioData[page].ing.map((e) => {
-                                    return <li className="text-xxSmall">{e}</li>
+                                {portfolioData[page].ing.map((e, index) => {
+                                    return <li key={index} className="text-xxSmall">{e}</li>
                                 })}
                             </ul>
                         </div>
