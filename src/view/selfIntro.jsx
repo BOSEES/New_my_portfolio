@@ -48,7 +48,7 @@ export const SelfIntro = ({ setPage, page }) => {
 	// }, [])
 
 	return (
-		<div className="flex flex-col justify-center p-10 h-screen w-8/12 md:w-full md:h-auto md:pb-0 md:pt-8 md:pl-8 md:pr-8 md:w-full">
+		<div className="flex flex-col justify-center p-10 h-screen w-7/12 md:w-full md:h-auto md:pb-0 md:pt-8 md:pl-8 md:pr-8 md:w-full">
 			<div className="flex items-center flex-wrap md:flex-row md:justify-between">
 				<Avatar />
 				<div className="min-w-200">
