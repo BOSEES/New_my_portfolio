@@ -28,10 +28,10 @@
         "status": ["프로젝트 진행중", true],
         "projects": [
             {
-                "title": "PERI Finance DeFi & DEX & NEND",
+                "title": "블록체인에 관심이 있는 사람들 간의 Deep dive",
                 "language": ["PPT, Docs"],
                 "description": [
-                    "블록체인 학회 지갑 세션 진행 및 발표"
+                    "블록체인 학회 '지갑' 세션 진행 및 발표"
                 ]
             }
         ]
