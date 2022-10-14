@@ -20,6 +20,23 @@
         ]
     },
     {
+        "period": ["2022.08", "현재"],
+        "thumbnail": "img/orakle.png",
+        "title": "KAIST 블록체인 학회 1기 - ORAKLE",
+        "position": "학회원",
+        "job": "",
+        "status": ["프로젝트 진행중", true],
+        "projects": [
+            {
+                "title": "PERI Finance DeFi & DEX & NEND",
+                "language": ["PPT, Docs"],
+                "description": [
+                    "블록체인 학회 지갑 세션 진행 및 발표"
+                ]
+            }
+        ]
+    },
+    {
         "period": ["2022.01", "2022.04"],
         "thumbnail": "img/data_labs_logo.png",
         "title": "Data Labs",
