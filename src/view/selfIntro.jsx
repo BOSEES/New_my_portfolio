@@ -52,8 +52,8 @@ export const SelfIntro = ({ setPage, page }) => {
 			<div className="flex items-center flex-wrap md:flex-row md:justify-between">
 				<Avatar />
 				<div className="min-w-200">
-					<h1 className="text-5xl font-bold text-white mb-4 md:text-[1rem] md:mb-0">
-						안녕하세요.
+					<h1 className="text-4xl font-bold text-white mb-4 md:text-[1rem] md:mb-0">
+						안녕하세요
 					</h1>
 					<div className="flex">
 						<h2 className="text-2xl font-bold text-make-light-green mr-2 md:text-[1rem]">
