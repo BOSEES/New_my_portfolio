@@ -22,16 +22,17 @@
     {
         "period": ["2022.08", "현재"],
         "thumbnail": "img/orakle.png",
-        "title": "KAIST 블록체인 학회 - ORAKLE 1기",
+        "title": "KAIST Blockchain Reserch Group - ORAKLE 1기",
         "position": "학회원",
-        "job": "",
+        "job": "개발자",
         "status": ["프로젝트 진행중", true],
         "projects": [
             {
-                "title": "KAIST Academy of Blockchain",
+                "title": "KAIST Blockchain Reserch Group",
                 "language": ["PPT, Docs"],
                 "description": [
-                    "블록체인 학회 '지갑' 세션 진행 및 발표"
+                    "블록체인 전반에 걸친 배경 Deep Dive",
+                    "'지갑', '크로스체인' 세션 진행 및 발표"
                 ]
             }
         ]

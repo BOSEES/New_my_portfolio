@@ -12,7 +12,7 @@
             "GraphQl / PostgreSQL / Apollo 사용해 DEX 가격 차트, 합성자산 통계 이벤트 핸들러 서버 구축",
             "트랜잭션 모니터링 시스탬 구현 / 운영",
             "ChainLink Price Feed 데이터와 자산의 통계를 얻기 위해 TheGraph 인프라 재구축",
-            "방대한 양의 PERI Finance SmartContract 리팩토링 및 운영"
+            "Synthetix Fork - PERI Finance SmartContract 리팩토링 및 운영"
         ],
         "portImages": [
             "img/perifinance_port_image/peri1.webp",
