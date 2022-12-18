@@ -5,7 +5,7 @@ export const Avatar = () => {
                 <img className="w-28 h-28 rounded-full md:w-14 md:h-14 md:mr-1" src="img/profile.jpeg" alt="avatar"/>
                 <a href="https://github.com/BOSEES" target="_blank" rel="noreferrer">
                     <div className="flex items-center md:flex-col">
-                        <h2 className="text-2xl text-white">BOSEES</h2>
+                        <h2 className="text-2xl text-make-light-green animate-[loading_1s_infinite_alternate] animation-delay-200">BOSEES</h2>
                         <div className="w-6 h-6 ml-1">
                                 <img className="rounded-full w-5 h-5" src="img/github.png" alt="github"/>
                         </div>
