@@ -1,21 +1,16 @@
 [
     {
-        "period": ["2022.04", "현재"],
-        "thumbnail": "img/peri_logo.png",
-        "title": "PERI Finance",
-        "position": "PERI Finance & NEND 개발자",
-        "job": "선임 개발자(CommonDev Front & Back)",
+        "period": ["2022.11", "현재"],
+        "thumbnail": "img/cosmostation_pixel.png",
+        "title": "Stamper - Cosmostation",
+        "position": "Validator Node Operation",
+        "job": "DevOps 개발자",
         "status": ["프로젝트 진행중", true],
         "projects": [
             {
-                "title": "PERI Finance DeFi & DEX & NEND",
-                "language": ["JavaScript(TypeScript)", "Solidity"],
-                "description": [
-                    "PERI DeFi Platform Crosschain Bridge (Light Client & Relay) 시스템 개발/운영",
-                    "PERI Finance Smart Contract 개발/운영",
-                    "DEX 가격 차트 및 통계 Dashboard 데이터 서버 개발",
-                    "NEND Project ERC-721 계열 Smart Contract 및 Minting Site FullStack 개발/운영"
-                ]
+                "title": "Node Operation",
+                "language": ["Linux", "Golang"],
+                "description": []
             }
         ]
     },
@@ -33,6 +28,26 @@
                 "description": [
                     "블록체인 전반에 걸친 배경 Deep Dive",
                     "'지갑', '크로스체인' 세션 진행 및 발표"
+                ]
+            }
+        ]
+    },
+    {
+        "period": ["2022.04", "2022.11"],
+        "thumbnail": "img/peri_logo.png",
+        "title": "PERI Finance",
+        "position": "PERI Finance & NEND 개발자",
+        "job": "선임 개발자(CommonDev Front & Back)",
+        "status": ["프로젝트 종료", false],
+        "projects": [
+            {
+                "title": "PERI Finance DeFi & DEX & NEND",
+                "language": ["JavaScript(TypeScript)", "Solidity"],
+                "description": [
+                    "PERI DeFi Platform Crosschain Bridge (Light Client & Relay) 시스템 개발/운영",
+                    "PERI Finance Smart Contract 개발/운영",
+                    "DEX 가격 차트 및 통계 Dashboard 데이터 서버 개발",
+                    "NEND Project ERC-721 계열 Smart Contract 및 Minting Site FullStack 개발/운영"
                 ]
             }
         ]

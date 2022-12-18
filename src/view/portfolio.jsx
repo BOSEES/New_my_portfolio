@@ -53,7 +53,7 @@ export const Portfolio = ({ parentNode }) => {
                     </div>
                     <div className="m-2">
                         <PortfolioItem pixelStruct={pixelStruct} img={portfolioData[page].img} detail={detail}/>
-                        {onModal && <PortfolioModal handleOnModal={handleOnModal} portImages={portfolioData[page].portImages}/>}
+                        {onModal && <PortfolioModal handleOnModal={handleOnModal} portImages={portfolioData[page].portImages} demo={portfolioData[page].demo}/>}
                         <div className="shadow-pixelSmall p-2 mt-4">
                             <h2 className="text-xSmall mb-5">주 사용기술: {portfolioData[page].usedSkill}</h2>
                             {portfolioData[page].portImages.length > 0 && 
@@ -78,6 +78,7 @@ export const Portfolio = ({ parentNode }) => {
                 {page === 1 && <PortfolioItem pixelStruct={pixelStruct} img={portfolioData[page].img} detail={detail}/>}
                 {page === 2 && <PortfolioItem pixelStruct={pixelStruct} img={portfolioData[page].img} detail={detail}/>}
                 {page === 3 && <PortfolioItem pixelStruct={pixelStruct} img={portfolioData[page].img} detail={detail}/>}
+                {page === 4 && <PortfolioItem pixelStruct={pixelStruct} img={portfolioData[page].img} detail={detail}/>}
                 <div className="flex mt-5">
                     <img src="img/left_arrow.png" className="w-10 h-10 m-1 hover:shadow-pixelSmall" alt="right arrow" onClick={handleLeftArrow}/>
                     <img src="img/right_arrow.png" className="w-10 h-10 m-1 hover:shadow-pixelSmall" alt="left arrow" onClick={handleRightArrow}/>

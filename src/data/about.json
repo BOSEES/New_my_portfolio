@@ -1,7 +1,7 @@
 {
     "introduce": {
         "title": "INTRODUCE",
-        "description": "안녕하세요. \n 저는 현재 FullStack 직군에서 프로젝트를 진행하고 있습니다. \n Javascript 언어를 가장 좋아합니다. 또한 흥미를 가지고 있는 언어는 Rust 입니다.\n FrontEnd 및 BackEnd 직군으로 프로젝트를 진행한 경력이 있습니다. \n\n 현재는 크로스체인 합성자산 DeFi 플랫폼 PERI 프로젝트와 NFT 대출 플랫폼 NEND 프로젝트를 진행중입니다. \n 탈중앙화를 기반으로 한 기술 트렌드와 실제 프로덕션의 중간에서 효율점을 찾아가며\n 하루하루 발전해 나가고 있습니다. 잘 부탁드립니다."
+        "description": "안녕하세요. \n Node Operation 직군에서 프로젝트를 진행하고 있습니다. \n Javascript 언어를 가장 좋아합니다. 또한 흥미를 가지고 있는 언어는 Rust, Golang 입니다.\n FrontEnd 및 BackEnd 직군으로 프로젝트를 진행한 경력이 있습니다. \n\n 현재는 Cosmos 진영의 Validator Node Operation을 진행중입니다. \n 탈중앙화를 기반으로 한 기술 트렌드와 실제 프로덕션의 중간에서 효율점을 찾아가며\n 하루하루 발전해 나가고 있습니다. 잘 부탁드립니다."
     },
     "skills": [
         {   "title": "Blockchain",
@@ -9,32 +9,32 @@
                 {
                     "title": "Solidity",
                     "img": "img/solidity_pixel.png",
-                    "isUsed": true
+                    "isUsed": false
                 },
                 {
                     "title": "Web3.js",
                     "img": "img/web3_pixel.png",
-                    "isUsed": true
+                    "isUsed": false
                 },
                 {
                     "title": "Ethers.js",
                     "img": "img/ethers_pixel.png",
-                    "isUsed": true
+                    "isUsed": false
                 },
                 {
                     "title": "HardHat",
                     "img": "img/hardhat_pixel.png",
-                    "isUsed": true
+                    "isUsed": false
                 },
                 {
                     "title": "Remix",
                     "img": "img/remix_pixel.png",
-                    "isUsed": true
+                    "isUsed": false
                 },
                 {
                     "title": "TheGraph",
                     "img": "img/thegraph_pixel.png",
-                    "isUsed": true
+                    "isUsed": false
                 },
                 {
                     "title": "ChainLink",
@@ -49,48 +49,53 @@
                 {
                     "title": "Javascript",
                     "img": "img/javascript_pixel.png",
-                    "isUsed": true
+                    "isUsed": false
                 },
                 {
                     "title": "ES 6",
                     "img": "img/es6_pixel.png",
-                    "isUsed": true
+                    "isUsed": false
                 },
                 {
                     "title": "Typescript",
                     "img": "img/typescript_pixel.png",
-                    "isUsed": true
+                    "isUsed": false
                 },
                 {
                     "title": "React",
                     "img": "img/react_pixel.png",
-                    "isUsed": true
+                    "isUsed": false
                 },
                 {
                     "title": "Redux",
                     "img": "img/redux_pixel.png",
-                    "isUsed": true
+                    "isUsed": false
                 },
                 {
                     "title": "Recoil",
                     "img": "img/recoil_pixel.png",
-                    "isUsed": true
+                    "isUsed": false
                 },
                 {
                     "title": "StyledComponent",
                     "img": "img/styled_component_pixel.png",
-                    "isUsed": true
+                    "isUsed": false
                 },
                 {
                     "title": "Tail-Wind",
                     "img": "img/tailwind_pixel.png",
-                    "isUsed": true
+                    "isUsed": false
                 }
             ]
         },
         {
             "title": "Backend Stack",
             "stack": [
+                {
+                    "title": "Golang",
+                    "img": "img/golang_pixel.png",
+                    "isUsed": true
+                },
                 {
                     "title": "Express.js",
                     "img": "img/express_pixel.png",
@@ -99,7 +104,7 @@
                 {
                     "title": "Apollo",
                     "img": "img/apollo_pixel.png",
-                    "isUsed": true
+                    "isUsed": false
                 },
                 {
                     "title": "PostgreSQL",
@@ -109,12 +114,12 @@
                 {
                     "title": "GraphQL",
                     "img": "img/graphql_pixel.png",
-                    "isUsed": true
+                    "isUsed": false
                 },
                 {
                     "title": "Prisma",
                     "img": "img/prisma_pixel.png",
-                    "isUsed": true
+                    "isUsed": false
                 },
                 {
                     "title": "MongoDB",
@@ -139,7 +144,7 @@
                 {
                     "title": "Docker",
                     "img": "img/docker_pixel.png",
-                    "isUsed": false
+                    "isUsed": true
                 }
             ]
         },
@@ -149,7 +154,7 @@
                 {
                     "title": "Github-Action",
                     "img": "img/githubaction_pixel.png",
-                    "isUsed": true
+                    "isUsed": false
                 }
             ]
         },

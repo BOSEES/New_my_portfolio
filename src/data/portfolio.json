@@ -1,8 +1,31 @@
 [
     {
+        "title": "Baroque Works - DreamPlus 2022 블록체인 해커톤 크러스트상 수상",
+        "img":"img/baroque_works_banner.png",
+        "period":"2022.10 ~ 2022.10",
+        "stack": "Backend Infra & Smart Contract",
+        "usedSkill": "Solidity, Hardhat, Ethers.js, MongoDB, Express.js",
+        "description": "BaroqueWorks는 DAO를 통해 중간에서 바운터와 고객간에 논쟁을 해결하고 지속적인 WEB3 보안 솔루션을 제공",
+        "ing": [
+            "BaroqueWorks Smart Contract 작성 - Reward Pool, multisig wallet ...",
+            "DAO Build Tool Setup - DAOHaus",
+            "블록체인에 담지 않는 데이터 DB 구축 및 서버 구현 - 이미지,내용 등등"
+        ],
+        "portImages": [
+            "img/baroque_works/0.png",
+            "img/baroque_works/1.png",
+            "img/baroque_works/2.png",
+            "img/baroque_works/3.png",
+            "img/baroque_works/4.png",
+            "img/baroque_works/5.png",
+            "img/baroque_works/6.png"
+        ],
+        "demo": [true, "https://www.youtube.com/watch?v=UcG_BgnkTzk&ab_channel=%EC%9D%B4%EC%84%B1%ED%9B%88"]
+    },
+    {
         "title": "PERI Finance Project",
         "img":"img/peri_banner.jpeg",
-        "period":"2022.04 ~ 현재",
+        "period":"2022.04 ~ 2022.11",
         "stack": "FullStack & Smart Contract",
         "usedSkill": "React(TypeScript) / Web3.js / Apollo / ChainLink / TheGraph / AWS / HardHat / Nginx / GraphQL / PM2 / Cron ...",
         "description": "PERI Finance는 제한 없는 유동성을 공급 가능하게 해주는, 탈중앙화 크로스 체인 합성 자산 및 파생상품 교환 프로토콜. PERI Finance를 통해, 어떤 유저든 제한 없이 전통 금융 상품 및 크립토 상품을 이용할 수 있음. 또한, PERI Finance는 현재 DeFi 프로젝트들이 겪고 있는 이더리움 상의 높은 가스 비용, 느린 처리 속도, Front Running 및 Flash loan(무담보 대출) 공격 등의 문제점들에 대해, OVM(Optimistic Virtual Machine)와 Layer2를 결합해 솔루션을 제공",
@@ -22,7 +45,8 @@
             "img/perifinance_port_image/peri5.webp",
             "img/perifinance_port_image/peri6.webp",
             "img/perifinance_port_image/peri7.webp"
-        ]
+        ],
+        "demo": [false, ""]
     },
     {
         "title": "NEND Project - NFT Minting site",
@@ -50,7 +74,8 @@
             "img/nend_nft/nft5.webp",
             "img/nend_nft/nft6.webp",
             "img/nend_nft/nft7.webp"
-        ]
+        ],
+        "demo": [false, ""]
     },
     {
         "title": "My Info Market - 마이데이터를 공유하는 세상",
@@ -65,7 +90,8 @@
             "소셜 로그인 서비스 구현",
             "목업 디자인 설계 및 UI/UX 협업"
         ],
-        "portImages": []
+        "portImages": [],
+        "demo": [false, ""]
     },
     {
         "title": "Heart Link - 경기도 블록체인 해커톤 우수상",
@@ -82,6 +108,7 @@
             "KAS 서비스를 이용해 토큰 발행 및 광고 개제 이벤트 추적 & 핸들링",
             "보상 받은 토큰을 재수익 창출할 수 있도록 스테이킹 시스탬 구현"
         ],
-        "portImages": []
+        "portImages": [],
+        "demo": [false, ""]
     }
 ]
